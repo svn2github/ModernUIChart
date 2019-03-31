@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>ModernUI.Charts.UWP</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>Modern UI Charts for UWP</title>
+    <!--*-->
+    <authors>Ricardo Pons</authors>
+    <owners>Ricardo Pons</owners>
+
+    <licenseUrl>https://github.com/RikardoPons/ModernUIChart/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RikardoPons/ModernUIChart</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--*-->
+    <description>small library to display charts in Modern UI Style for UWP Apps</description>
+    <!--*-->
+    <releaseNotes>
+      
+    This version supports:
+
+    ColumnChart (ClusteredColumnChart, StackedColumnChart, StackedColumnChart100Percent)
+    PieChart (PieChart and Dognut)
+    BarChart (ClusteredBarChart, StackedBarChart, StackedBarChart100Percent)
+    Doughnut Chart
+    Radial Gauge Chart
+
+    Current Features (from the original Project)
+
+    Dynamic binding of data
+    Animation after loading and after changes to underlying data
+    Custom Color Palette
+    Hidable Title and Legend
+    Switchable series
+    Configurable font size
+
+    </releaseNotes>
+    <copyright>copyright 2019</copyright>
+    <tags>uwp,chart</tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+ 
+  </metadata>
+  
+</package>

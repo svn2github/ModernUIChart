@@ -5,6 +5,7 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{234C2733-4068-470F-96ED-D111EBF9A10E}"
 	ProjectSection(SolutionItems) = preProject
+		nuget.cmd = nuget.cmd
 		XAMLReplace.targets = XAMLReplace.targets
 	EndProjectSection
 EndProject
@@ -17,40 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUIChart.UWP", "ModernUIChart.UWP\ModernUIChart.UWP.csproj", "{B6C7F5EA-40E4-4869-AC9D-9A06310F02C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUI.Charts.UWP", "ModernUI.Charts.UWP\ModernUI.Charts.UWP.csproj", "{91F912AF-424B-4D39-A245-DB3C61384041}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{A1023296-FCBA-4511-A74F-72BD41342C0D}"
-	ProjectSection(SolutionItems) = preProject
-		ModernUI.Charts.UWP\package.nuspec = ModernUI.Charts.UWP\package.nuspec
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "runtimes", "runtimes", "{0AE11378-4636-40F8-B6CF-C518DAF51791}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "win10-x86", "win10-x86", "{501B739C-73D1-4C27-9C1E-15232C9FDB7C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "win10-x64", "win10-x64", "{165EAEBF-FA5C-49A4-BB13-84672BC9C5A7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "win10-arm", "win10-arm", "{14B81B1C-E0F1-47B8-A88A-7CA78ED9619C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{CBC3CE7E-6524-4AC3-AEB0-EC3DCBFCBA22}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{9131C4A8-F629-4F0C-AB5F-A6AEDBA5B12F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{4E29C979-4C07-4F9A-9E5D-DFE84793F8DC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uap10.0", "uap10.0", "{37FC6E1D-E15A-4F09-A2F2-86B8CAE30DA7}"
-	ProjectSection(SolutionItems) = preProject
-		ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.dll = ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uap10.0", "uap10.0", "{C2836CC6-21B0-46A8-BBBB-221914B6341B}"
-	ProjectSection(SolutionItems) = preProject
-		ModernUI.Charts.UWP\bin\x64\Release\ModernUI.Charts.UWP.dll = ModernUI.Charts.UWP\bin\x64\Release\ModernUI.Charts.UWP.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uap10.0", "uap10.0", "{2F2CCB56-9C02-4B14-BA36-E0EE923D90E1}"
-	ProjectSection(SolutionItems) = preProject
-		ModernUI.Charts.UWP\bin\x86\Release\ModernUI.Charts.UWP.dll = ModernUI.Charts.UWP\bin\x86\Release\ModernUI.Charts.UWP.dll
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,16 +107,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B6C7F5EA-40E4-4869-AC9D-9A06310F02C4} = {C1E46203-E3D8-47EE-B26F-39013E9F102C}
 		{91F912AF-424B-4D39-A245-DB3C61384041} = {5AF34993-CF54-45A1-A3E1-5EFDC7794BC1}
-		{0AE11378-4636-40F8-B6CF-C518DAF51791} = {A1023296-FCBA-4511-A74F-72BD41342C0D}
-		{501B739C-73D1-4C27-9C1E-15232C9FDB7C} = {0AE11378-4636-40F8-B6CF-C518DAF51791}
-		{165EAEBF-FA5C-49A4-BB13-84672BC9C5A7} = {0AE11378-4636-40F8-B6CF-C518DAF51791}
-		{14B81B1C-E0F1-47B8-A88A-7CA78ED9619C} = {0AE11378-4636-40F8-B6CF-C518DAF51791}
-		{CBC3CE7E-6524-4AC3-AEB0-EC3DCBFCBA22} = {14B81B1C-E0F1-47B8-A88A-7CA78ED9619C}
-		{9131C4A8-F629-4F0C-AB5F-A6AEDBA5B12F} = {165EAEBF-FA5C-49A4-BB13-84672BC9C5A7}
-		{4E29C979-4C07-4F9A-9E5D-DFE84793F8DC} = {501B739C-73D1-4C27-9C1E-15232C9FDB7C}
-		{37FC6E1D-E15A-4F09-A2F2-86B8CAE30DA7} = {CBC3CE7E-6524-4AC3-AEB0-EC3DCBFCBA22}
-		{C2836CC6-21B0-46A8-BBBB-221914B6341B} = {9131C4A8-F629-4F0C-AB5F-A6AEDBA5B12F}
-		{2F2CCB56-9C02-4B14-BA36-E0EE923D90E1} = {4E29C979-4C07-4F9A-9E5D-DFE84793F8DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC5EFBB4-E611-407E-A5E3-D0E88A6D5DCC}

@@ -241,10 +241,33 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP.dll" />
+    <Content Include="Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\ModernUI.Charts.UWP.pdb" />
+    <Content Include="Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\ModernUI.Charts.UWP.xr.xml" />
+    <Content Include="Nuget\runtimes\win10-x64\lib\uap10.0\ModernUI.Charts.UWP.dll" />
+    <Content Include="Nuget\runtimes\win10-x64\lib\uap10.0\ModernUI.Charts.UWP.pdb" />
+    <Content Include="Nuget\runtimes\win10-x64\lib\uap10.0\ModernUI.Charts.UWP.xr.xml" />
+    <Content Include="Nuget\runtimes\win10-x86\lib\uap10.0\ModernUI.Charts.UWP.dll" />
+    <Content Include="Nuget\runtimes\win10-x86\lib\uap10.0\ModernUI.Charts.UWP.pdb" />
+    <Content Include="Nuget\runtimes\win10-x86\lib\uap10.0\ModernUI.Charts.UWP.xr.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\ModernUI.Charts.UWP.pri" />
+    <None Include="Nuget\runtimes\win10-x64\lib\uap10.0\ModernUI.Charts.UWP.pri" />
+    <None Include="Nuget\runtimes\win10-x64\lib\uap10.0\Themes\Generic.xbf" />
+    <None Include="Nuget\runtimes\win10-x86\lib\uap10.0\ModernUI.Charts.UWP.pri" />
+    <None Include="Nuget\runtimes\win10-x86\lib\uap10.0\Themes\Generic.xbf" />
+    <None Include="package.nuspec" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
