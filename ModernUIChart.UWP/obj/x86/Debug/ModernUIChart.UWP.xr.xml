@@ -3,13 +3,13 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="SelectedItem" />
     <RootPropertyPathName Name="Series" />
+    <RootPropertyPathName Name="DisplayName" />
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Errors" />
     <RootPropertyPathName Name="Warnings" />
     <RootPropertyPathName Name="Tag" />
     <RootPropertyPathName Name="Number" />
     <RootPropertyPathName Name="Category" />
-    <RootPropertyPathName Name="DisplayName" />
     <RootPropertyPathName Name="GoBackCommand" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -30,9 +30,9 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="Children" />
       <RootProperty Name="Background" />
       <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Margin" />
       <RootMethod Name="GetRow" />
@@ -40,82 +40,7 @@
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="ContentTemplate" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="Path" />
-      <RootProperty Name="Mode" />
-      <RootProperty Name="ElementName" />
-    </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="ModernUIChart.UWP.MainPage" />
-    <RootType FullName="Windows.UI.Color" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="TextTrimming" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="LineStackingStrategy" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="LineHeight" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="Style" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Opacity" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Typography">
-      <RootMethod Name="GetStylisticSet20" />
-      <RootMethod Name="SetStylisticSet20" />
-      <RootMethod Name="GetDiscretionaryLigatures" />
-      <RootMethod Name="SetDiscretionaryLigatures" />
-      <RootMethod Name="GetCaseSensitiveForms" />
-      <RootMethod Name="SetCaseSensitiveForms" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="HorizontalAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.UIElement">
-      <RootProperty Name="RenderTransform" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Command" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Style" />
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Control">
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Template" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="HorizontalContentAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
-      <RootMethod Name="GetAutomationId" />
-      <RootMethod Name="SetAutomationId" />
-      <RootMethod Name="GetName" />
-      <RootMethod Name="SetName" />
-      <RootMethod Name="GetItemType" />
-      <RootMethod Name="SetItemType" />
-    </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartBase" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem" />
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -132,6 +57,20 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="MinWidth" />
       <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="TextTrimming" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="LineStackingStrategy" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="LineHeight" />
+      <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
@@ -160,7 +99,16 @@
       <RootProperty Name="SeriesSource" />
       <RootProperty Name="SeriesTemplate" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="ElementName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
     <RootType FullName="De.TorstenMandelkow.MetroChart.ChartSeries">
+      <RootProperty Name="SeriesTitle" />
       <RootProperty Name="DisplayMember" />
       <RootProperty Name="ValueMember" />
       <RootProperty Name="ItemsSource" />
@@ -176,6 +124,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="ChartSubTitle" />
+      <RootProperty Name="Palette" />
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="SeriesSource" />
       <RootProperty Name="SeriesTemplate" />
@@ -228,10 +177,56 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="Child" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Command" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
       <RootMethod Name="GetToolTip" />
       <RootMethod Name="SetToolTip" />
     </RootType>
+    <RootType FullName="ModernUIChart.UWP.MainPage" />
+    <RootType FullName="Windows.UI.Color" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Typography">
+      <RootMethod Name="GetStylisticSet20" />
+      <RootMethod Name="SetStylisticSet20" />
+      <RootMethod Name="GetDiscretionaryLigatures" />
+      <RootMethod Name="SetDiscretionaryLigatures" />
+      <RootMethod Name="GetCaseSensitiveForms" />
+      <RootMethod Name="SetCaseSensitiveForms" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalContentAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAutomationId" />
+      <RootMethod Name="SetAutomationId" />
+      <RootMethod Name="GetName" />
+      <RootMethod Name="SetName" />
+      <RootMethod Name="GetItemType" />
+      <RootMethod Name="SetItemType" />
+    </RootType>
+    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartBase" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem" />
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
@@ -245,11 +240,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
       <RootProperty Name="IsHitTestVisible" />
-      <RootProperty Name="Stroke" />
-      <RootProperty Name="StrokeEndLineCap" />
-      <RootProperty Name="StrokeDashArray" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeDashArray" />
       <RootProperty Name="StrokeDashOffset" />
+      <RootProperty Name="StrokeEndLineCap" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
       <RootProperty Name="States" />

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-03-31T05:22:33.263</Modified>
+      <Modified>2019-03-31T05:51:26.190</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\ModernUIChart.UWP.exe">
       <PackagePath>entrypoint\ModernUIChart.UWP.exe</PackagePath>
-      <Modified>2019-03-31T05:22:31.696</Modified>
+      <Modified>2019-03-31T05:51:23.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\De.TorstenMandelkow.MetroChart.WinRT.dll">
       <PackagePath>De.TorstenMandelkow.MetroChart.WinRT.dll</PackagePath>
-      <Modified>2019-03-31T05:22:29.232</Modified>
+      <Modified>2019-03-31T05:51:21.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -542,7 +542,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\ModernUIChart.UWP.xr.xml">
       <PackagePath>ModernUIChart.UWP.xr.xml</PackagePath>
-      <Modified>2019-03-31T05:22:31.485</Modified>
+      <Modified>2019-03-31T05:51:23.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\De.TorstenMandelkow.MetroChart.WinRT.xr.xml">
       <PackagePath>De.TorstenMandelkow.MetroChart.WinRT\De.TorstenMandelkow.MetroChart.WinRT.xr.xml</PackagePath>
@@ -550,19 +550,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-03-31T05:22:31.510</Modified>
+      <Modified>2019-03-31T05:51:23.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-03-31T05:22:31.510</Modified>
+      <Modified>2019-03-31T05:51:23.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Theme\Generic.xbf">
       <PackagePath>Theme\Generic.xbf</PackagePath>
-      <Modified>2019-03-31T05:22:31.508</Modified>
+      <Modified>2019-03-31T05:51:23.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\Themes\Generic.xbf">
       <PackagePath>De.TorstenMandelkow.MetroChart.WinRT\Themes\Generic.xbf</PackagePath>
-      <Modified>2019-03-31T05:22:29.005</Modified>
+      <Modified>2019-03-31T05:51:21.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -570,11 +570,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-03-31T05:22:32.634</Modified>
+      <Modified>2019-03-31T05:51:25.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Core\ModernUIChart.UWP.exe">
       <PackagePath>ModernUIChart.UWP.exe</PackagePath>
-      <Modified>2019-03-31T05:22:33.244</Modified>
+      <Modified>2019-03-31T05:51:26.178</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

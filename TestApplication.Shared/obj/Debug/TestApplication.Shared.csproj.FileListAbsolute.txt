@@ -1,0 +1,2 @@
+D:\ModernUIChart\TestApplication.Shared\obj\Debug\TestApplication.Shared.csprojAssemblyReference.cache
+D:\ModernUIChart\TestApplication.Shared\obj\Debug\TestApplication.Shared.csproj.CoreCompileInputs.cache
