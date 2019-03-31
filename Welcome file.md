@@ -17,6 +17,11 @@ I have decided to port this project to UWP because the author did a great job bu
 
  - Dynamic binding of data
  - Animation after loading and after changes to underlying data
+ - Custom Color Palette
+ - Hidable Title and Legend
+ - Switchable series
+ - Configurable font size
+
 
 # Files
 
@@ -157,5 +162,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTExMDY1ODBdfQ==
+eyJoaXN0b3J5IjpbMzM2NDg3MDE2XX0=
 -->
