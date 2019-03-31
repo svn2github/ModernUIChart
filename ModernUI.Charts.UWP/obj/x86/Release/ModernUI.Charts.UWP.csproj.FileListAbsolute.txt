@@ -54,6 +54,3 @@ D:\ModernUIChart\ModernUI.Charts.UWP\obj\x86\Release\qualifiers.txt.intermediate
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\x86\Release\ModernUI.Charts.UWP.cs
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\x86\Release\ModernUI.Charts.UWP.csprojAssemblyReference.cache
-D:\ModernUIChart\ModernUI.Charts.UWP\bin\x86\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xbf
-D:\ModernUIChart\ModernUI.Charts.UWP\obj\x86\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xaml
-D:\ModernUIChart\ModernUI.Charts.UWP\obj\x86\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xbf

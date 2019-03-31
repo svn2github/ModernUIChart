@@ -4,6 +4,7 @@ D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.dll
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.pdb
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.pri
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.cs
+D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\ModernUI.Charts.UWP.csprojAssemblyReference.cache
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\XamlTypeInfo.g.cs
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\Themes\Generic.xaml
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\Themes\Generic.xbf
@@ -26,7 +27,3 @@ D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\pri.resfiles.intermediate
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\qualifiers.txt
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\qualifiers.txt.intermediate
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\MultipleQualifiersPerDimensionFound.txt
-D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\ModernUI.Charts.UWP.csprojAssemblyReference.cache
-D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xbf
-D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xaml
-D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xbf

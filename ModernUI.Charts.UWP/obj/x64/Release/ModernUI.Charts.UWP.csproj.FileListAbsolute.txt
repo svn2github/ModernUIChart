@@ -27,6 +27,3 @@ D:\ModernUIChart\ModernUI.Charts.UWP\obj\x64\Release\pri.resfiles.intermediate
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\x64\Release\qualifiers.txt
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\x64\Release\qualifiers.txt.intermediate
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\x64\Release\MultipleQualifiersPerDimensionFound.txt
-D:\ModernUIChart\ModernUI.Charts.UWP\bin\x64\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xbf
-D:\ModernUIChart\ModernUI.Charts.UWP\obj\x64\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xaml
-D:\ModernUIChart\ModernUI.Charts.UWP\obj\x64\Release\Nuget\runtimes\win10-arm\lib\uap10.0\ModernUI.Charts.UWP\Themes\Generic.xbf

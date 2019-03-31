@@ -7,6 +7,14 @@ pushd %~dp0
 @echo.
 @msbuild  D:\ModernUIChart\ModernUI.Charts.UWP\ModernUI.Charts.UWP.csproj /p:Configuration="Release" /p:Platform="ARM"
 @echo.
+
+@echo === Updating files ====
+
+ROBOCOPY D:\ModernUIChart\ModernUI.Charts.UWP\bin\x86\Release D:\ModernUIChart\Nuget\runtimes\win10-x86\lib\uap10.0 * /E
+ROBOCOPY D:\ModernUIChart\ModernUI.Charts.UWP\bin\x64\Release D:\ModernUIChart\Nuget\runtimes\win10-x64\lib\uap10.0 * /E
+ROBOCOPY D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release D:\ModernUIChart\Nuget\runtimes\win10-ARM\lib\uap10.0 * /E
+
+
 @echo === Creating Nuget Package ====
 
 @ D:\nuget.exe pack Nuget\package.nuspec
