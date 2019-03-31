@@ -5,7 +5,10 @@
 This project is taken from 
 https://github.com/svn2github/ModernUIChart
 
+
 I have decided to port this project to UWP because the author did a great job building Charts and lack of controls about charts  for Universal Windows Applications.
+
+This project provides a small library to display charts in **Modern UI Style** for UWP Apps
 
 **This version supports:**
 
@@ -175,5 +178,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNTQxMTM1LC00NzE4MTg5NV19
+eyJoaXN0b3J5IjpbMTQ3MjAxMDI4Nyw1MTI1NDExMzUsLTQ3MT
+gxODk1XX0=
 -->
