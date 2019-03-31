@@ -23,7 +23,6 @@ I have decided to port this project to UWP because the author did a great job bu
  - Hidable Title and Legend
  - Switchable series
  - Configurable font size
-![enter image description here](https://picasaweb.google.com/115077053912954404161/6674457457693770721#6674457454900610786)
 
 # Files
 
@@ -164,5 +163,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTEyMTY2NV19
+eyJoaXN0b3J5IjpbMTI2OTU0MjExMF19
 -->
