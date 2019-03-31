@@ -3,8 +3,12 @@
 This project is taken from 
 https://github.com/svn2github/ModernUIChart
 
-I hav
+I have decided to port this project to UWP because the author did a great job building Charts for Universal Windows Applications.
 
+This version supports:
+
+ - ColumnChart (ClusteredColumnChart, StackedColumnChart, StackedColumnChart100Percent)
+ - 
 
 # Files
 
@@ -145,5 +149,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjgyMjk0N119
+eyJoaXN0b3J5IjpbLTExMDAyNDIxNTldfQ==
 -->
