@@ -1,0 +1,2 @@
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\De.TorstenMandelkow.MetroChart.WinRT.csproj;neutral
+D:\ModernUIChart\ModernUIChart.UWP\ModernUIChart.UWP.csproj;x86

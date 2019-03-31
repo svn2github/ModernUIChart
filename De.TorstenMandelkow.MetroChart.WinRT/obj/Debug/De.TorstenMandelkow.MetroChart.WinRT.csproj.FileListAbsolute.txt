@@ -27,4 +27,3 @@ D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\pri.resfiles.int
 D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\qualifiers.txt
 D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\qualifiers.txt.intermediate
 D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\De.TorstenMandelkow.MetroChart.WinRT.csprojAssemblyReference.cache

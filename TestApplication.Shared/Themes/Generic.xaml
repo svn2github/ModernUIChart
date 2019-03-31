@@ -308,7 +308,7 @@
                                 Style="{StaticResource ChartStyle}"
                                 ChartTitle="Column Chart"
                                 ChartSubTitle="Which types of errors and warnings appears most"                  
-                                Palette="{StaticResource CustomPalette}"
+                            
                                 SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
                                 SeriesSource="{Binding Series}">
                                 <chart:ClusteredColumnChart.SeriesTemplate>
