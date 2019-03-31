@@ -28,7 +28,11 @@ I have decided to port this project to UWP because the author did a great job bu
 
 ![enter image description here](https://lh3.googleusercontent.com/5yu-ezTisEdoYwpiQWrFa--6SLdox_IA9sq93i4d89bh2knaMIk00uZ8zYr0WpOSX_dld96ZXIDp)
 
-# Files
+# Roadmap
+
+ - Native support for Light and Dark Themes 
+ - Line Chart 
+ - Financial Charts & Indicato
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -167,5 +171,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTcxMzE5NF19
+eyJoaXN0b3J5IjpbLTEzODQ5NDczMzVdfQ==
 -->
