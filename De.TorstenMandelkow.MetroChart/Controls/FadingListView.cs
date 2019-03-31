@@ -78,7 +78,6 @@ namespace De.TorstenMandelkow.MetroChart
 
         void FadingListView_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            //throw new NotImplementedException();
             RealWidth = this.ActualWidth;
             RealHeight = this.ActualHeight;
         }
@@ -95,12 +94,13 @@ namespace De.TorstenMandelkow.MetroChart
                     TimeSpan waitTime = TimeSpan.FromMilliseconds(index * (500.0 / this.Items.Count));
 
                     lb.Opacity = 0.0;
-                    DoubleAnimation anm = new DoubleAnimation();
-                    anm.From = 0;
-                    anm.To = 1;
-                    anm.Duration = TimeSpan.FromMilliseconds(250);
-                    anm.BeginTime = waitTime;
-
+                    DoubleAnimation anm = new DoubleAnimation()
+                    {
+                        From = 0,
+                        To = 1,
+                        Duration = TimeSpan.FromMilliseconds(250),
+                        BeginTime = waitTime
+                    };
                     Storyboard storyda = new Storyboard();
                     storyda.Children.Add(anm);
                     Storyboard.SetTarget(storyda, lb);

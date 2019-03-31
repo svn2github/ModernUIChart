@@ -108,10 +108,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\De.TorstenMandelkow.MetroChart.WPF\De.TorstenMandelkow.MetroChart.WPF.csproj">
-      <Project>{4ab4b0db-780c-48b9-a642-8e527353d957}</Project>
+    <ProjectReference Include="..\De.TorstenMandelkow.MetroChart\De.TorstenMandelkow.MetroChart.csproj">
+      <Project>{fa286411-e476-4bd0-abe9-7ae69226069c}</Project>
       <Name>De.TorstenMandelkow.MetroChart</Name>
-      <Aliases>global</Aliases>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

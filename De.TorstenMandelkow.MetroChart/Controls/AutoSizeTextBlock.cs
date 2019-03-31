@@ -27,6 +27,14 @@
     public class AutoSizeTextBlock : Control
 #endif
     {
+        public static readonly DependencyProperty IsHeightExceedsSpaceProperty =
+            DependencyProperty.Register("IsHeightExceedsSpace", typeof(bool), typeof(AutoSizeTextBlock),
+            new PropertyMetadata(false));
+
+        public static readonly DependencyProperty IsWidthExceedsSpaceProperty =
+            DependencyProperty.Register("IsWidthExceedsSpace", typeof(bool), typeof(AutoSizeTextBlock),
+            new PropertyMetadata(false));
+
         public static readonly DependencyProperty TextBlockStyleProperty =
             DependencyProperty.Register("TextBlockStyle", typeof(Style), typeof(AutoSizeTextBlock),
             new PropertyMetadata(null));
@@ -76,8 +84,7 @@
         private void InternalOnApplyTemplate()
         {
             mainBorder = this.GetTemplateChild("PART_Border") as Border; 
-            mainTextBlock = this.GetTemplateChild("PART_TextBlock") as TextBlock;
-            initialheight = mainTextBlock.LineHeight + mainTextBlock.Margin.Top + mainTextBlock.Margin.Bottom;
+            mainTextBlock = this.GetTemplateChild("PART_TextBlock") as TextBlock;            
         }
 
         public Style TextBlockStyle
@@ -92,13 +99,53 @@
             set { SetValue(TextProperty, value); }
         }
 
+        public bool IsHeightExceedsSpace
+        {
+            get { return (bool)GetValue(IsHeightExceedsSpaceProperty); }
+            set { SetValue(IsHeightExceedsSpaceProperty, value); }
+        }
+
+        public bool IsWidthExceedsSpace
+        {
+            get { return (bool)GetValue(IsWidthExceedsSpaceProperty); }
+            set { SetValue(IsWidthExceedsSpaceProperty, value); }
+        }
+                
         protected override Size MeasureOverride(Size availableSize)
         {
-            mainTextBlock.Visibility = Visibility.Collapsed;
-            return new Size(0, initialheight);
+            Size returnedSize = new Size(0,0); //we do not need space
+            mainTextBlock.Measure(new Size(double.MaxValue, double.MaxValue));
 
+            if (double.IsInfinity(availableSize.Height) || (availableSize.Height > mainTextBlock.DesiredSize.Height))
+            {      
+                // there is enough space, we return our minimum space
+                returnedSize.Height = mainTextBlock.DesiredSize.Height;
+            }
+
+            if (double.IsInfinity(availableSize.Width)  || (availableSize.Width > mainTextBlock.DesiredSize.Width))
+            {
+                // there is enough space, we return our minimum space
+                returnedSize.Width = mainTextBlock.DesiredSize.Width;
+            }
+                       
+            return returnedSize;
+           
+            /*
+            mainTextBlock.Visibility = Visibility.Collapsed;
+            if (availableSize.Height < initialheight)
+            {
+                //if the is not enough height for the text, 
+                //return new Size(0, availableSize.Height);
+            }
+            else
+            {
+                //return new Size(0, initialheight);
+            }
+
+            return new Size(0, 0);
            // Size baseSize = base.MeasureOverride(availableSize);
            // return baseSize;
+             * */
         }
 
         private TextBlock GetCopyOfMainTextBlock()
@@ -115,6 +162,34 @@
 
         protected override Size ArrangeOverride(Size finalSize)
         {
+            if (mainTextBlock.ActualHeight > 0.0)
+            {
+                if ((mainTextBlock.ActualHeight > finalSize.Height) || (mainTextBlock.ActualWidth > finalSize.Width))
+                {
+                    IsHeightExceedsSpace = true;
+                    this.Opacity = 0;
+                }
+                else
+                {
+                    IsHeightExceedsSpace = false;
+                    this.Opacity = 1;
+                }
+            }
+
+            if (mainTextBlock.ActualWidth > 0.0)
+            {
+                if ((mainTextBlock.ActualHeight > finalSize.Height) || (mainTextBlock.ActualWidth > finalSize.Width))
+                {
+                    IsWidthExceedsSpace = true;
+                    this.Opacity = 0;
+                }
+                else
+                {
+                    IsWidthExceedsSpace = false;
+                    this.Opacity = 1;
+                }
+            }
+            /*
             //mainTextBlock.MaxWidth = finalSize.Width;
             //mainTextBlock.Visibility = Visibility.Visible;
             TextBlock tempBlock = GetCopyOfMainTextBlock();
@@ -123,16 +198,21 @@
 
             double currentWidth = tempBlock.DesiredSize.Width;
 
+            if (tempBlock.DesiredSize.Height > finalSize.Height)
+            {
+                IsHeightExceedsSpace = true;
+                this.Opacity = 0;
+            }
+            else
+            {
+                IsHeightExceedsSpace = false;
+                this.Opacity = 1;
+            }
+
             //is textblock larger than the available width, then we scale it down
             if (currentWidth > finalSize.Width)
             {
-                /*
-                double factor = finalSize.Width / currentWidth;
-                ScaleTransform tt = new ScaleTransform();
-                tt.ScaleX = factor;
-                tt.ScaleY = factor;
-                mainTextBlock.RenderTransform = tt;
-                * */
+                
             }
             else
             {
@@ -141,6 +221,7 @@
 
             mainBorder.Width = finalSize.Width;
             mainBorder.Height = finalSize.Height;
+             * */
             return base.ArrangeOverride(finalSize);
         }
     }

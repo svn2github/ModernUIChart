@@ -26,7 +26,10 @@
 #else
     public class MinimalWidthTextBlock : Control
 #endif
-    {
+    { 
+        private const char DEFAULTCHARSEPARATOR = '|';
+
+
         public static readonly DependencyProperty TextBlockStyleProperty =
             DependencyProperty.Register("TextBlockStyle", typeof(Style), typeof(MinimalWidthTextBlock),
             new PropertyMetadata(null));
@@ -97,10 +100,20 @@
             if (mainTextBlock != null)
             {
                 string text = mainTextBlock.Text;
-                if(text.Contains(" "))
+                char separator = DEFAULTCHARSEPARATOR;
+
+                if (text.Contains(" "))
+                {
+                    separator = ' ';
+                }
+                if (text.Contains("."))
+                {
+                    separator = '.';
+                }
+                if (separator != DEFAULTCHARSEPARATOR)
                 {
                     //find all combinations how the sentence could be split into 2 lines
-                    List<string[]> allcombinations = GetAllLinesCombinations(text);
+                    List<string[]> allcombinations = GetAllLinesCombinations(text, separator);
 
                     double bestWidth = double.PositiveInfinity;
                     foreach (string[] combination in allcombinations)
@@ -164,7 +177,7 @@
             return b.DesiredSize.Width;
         }
 
-        private List<string[]> GetAllLinesCombinations(string text)
+        private List<string[]> GetAllLinesCombinations(string text, char separator)
         {
             // Number of site features
             List<string[]> combinations = new List<string[]>();
@@ -173,7 +186,7 @@
 
             while (true)
             {
-                int spacePosition = text.IndexOf(' ', startposition);
+                int spacePosition = text.IndexOf(separator, startposition);
                 if (spacePosition < 0)
                 {
                     return combinations;

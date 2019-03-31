@@ -1,0 +1,6 @@
+D:\ModernUIChart\TestApplicationWPF\obj\Debug\TestApplicationWPF.csprojAssemblyReference.cache
+D:\ModernUIChart\TestApplicationWPF\obj\Debug\MainWindow.baml
+D:\ModernUIChart\TestApplicationWPF\obj\Debug\App.baml
+D:\ModernUIChart\TestApplicationWPF\obj\Debug\MainWindow.g.cs
+D:\ModernUIChart\TestApplicationWPF\obj\Debug\App.g.cs
+D:\ModernUIChart\TestApplicationWPF\obj\Debug\TestApplicationWPF_MarkupCompile.cache

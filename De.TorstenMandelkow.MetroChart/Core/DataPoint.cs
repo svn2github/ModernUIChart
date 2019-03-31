@@ -49,11 +49,24 @@
           typeof(double),
           typeof(DataPoint),
           new PropertyMetadata(0.0));
+
         public static readonly DependencyProperty IsSelectedProperty =
           DependencyProperty.Register("IsSelected",
           typeof(bool),
           typeof(DataPoint),
           new PropertyMetadata(false));
+
+        public static readonly DependencyProperty SelectedBrushProperty =
+          DependencyProperty.Register("SelectedBrush",
+          typeof(Brush),
+          typeof(DataPoint),
+          new PropertyMetadata(null));
+
+        public static readonly DependencyProperty ItemBrushProperty =
+         DependencyProperty.Register("ItemBrush",
+         typeof(Brush),
+         typeof(DataPoint),
+         new PropertyMetadata(null));
 
         public static readonly DependencyProperty IsClickedByUserProperty =
           DependencyProperty.Register("IsClickedByUser",
@@ -61,12 +74,23 @@
           typeof(DataPoint),
           new PropertyMetadata(false, new PropertyChangedCallback(OnIsClickedByUserChanged)));
 
+        public static readonly DependencyProperty ToolTipFormatProperty =
+          DependencyProperty.Register("ToolTipFormat",
+          typeof(string),
+          typeof(DataPoint),
+          new PropertyMetadata("", OnToolTipFormatChanged));
+
         private static void OnIsClickedByUserChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             if (((bool)e.NewValue) == true)
             {
                 (d as DataPoint).UpdateSelection();
             }
+        }
+
+        private static void OnToolTipFormatChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            (d as DataPoint).UpdateDisplayProperties();
         }
 
         private void UpdateSelection()
@@ -83,6 +107,14 @@
         private static void OnSelectedItemChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             (d as DataPoint).SelectedItemChanged(e.NewValue);
+        }
+
+        public ChartBase ParentChart
+        { get; private set; }
+
+        public DataPoint(ChartBase parentChart)
+        {
+            ParentChart = parentChart;
         }
 
         private void SelectedItemChanged(object selectedObject)
@@ -234,6 +266,20 @@
             set { SetValue(MaxDataPointGroupSumProperty, value); }
         }
 
+        public string ToolTipFormat
+        {
+            get { return (string)GetValue(ToolTipFormatProperty); }
+            set { SetValue(ToolTipFormatProperty, value); }
+        }
+
+        public Brush SelectedBrush
+        {
+            get { return (Brush)GetValue(SelectedBrushProperty); }
+            set { SetValue(SelectedBrushProperty, value); }
+        }
+
+        
+
         public string SeriesCaption
         {
             get;
@@ -242,8 +288,8 @@
 
         public Brush ItemBrush
         {
-            get;
-            set;
+            get { return (Brush)GetValue(ItemBrushProperty); }
+            set { SetValue(ItemBrushProperty, value); }
         }
 
         private object _ReferencedObject;
@@ -257,8 +303,7 @@
             set
             {
                 _ReferencedObject = value;
-                RaisePropertyChangeEvent("Value");
-                RaisePropertyChangeEvent("DisplayName");
+                UpdateDisplayProperties();
                 if (_ReferencedObject is INotifyPropertyChanged)
                 {
                     (_ReferencedObject as INotifyPropertyChanged).PropertyChanged += DataPoint_PropertyChanged;
@@ -266,16 +311,22 @@
             }
         }
 
+
+        private void UpdateDisplayProperties()
+        {
+            RaisePropertyChangeEvent("Value");
+            RaisePropertyChangeEvent("FormattedValue");
+            RaisePropertyChangeEvent("DisplayName");
+        }               
+
+
         //get notified if value changes
         void DataPoint_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {
             if (e.PropertyName == ValueMember)
             {
                 //raiseproperty change on value
-                if (PropertyChanged != null)
-                {
-                    this.PropertyChanged(this, new PropertyChangedEventArgs("Value"));
-                }
+                UpdateDisplayProperties();
                 UpdatePercentage();
             }
             if (e.PropertyName == DisplayMember)
@@ -305,6 +356,14 @@
             get
             {
                 return DisplayName;
+            }
+        }
+
+        public string FormattedValue
+        {
+            get
+            {
+                return string.Format(this.ToolTipFormat, this.Caption, this.Value, this.SeriesCaption, this.PercentageFromMaxDataPointGroupSum, this.PercentageFromMaxDataPointValue, this.PercentageFromSumOfDataPointGroup);
             }
         }
 

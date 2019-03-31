@@ -1,0 +1,4 @@
+D:\Repositorios\Avx\SiivasaAppClient\De.TorstenMandelkow.MetroChart\obj\Debug\De.TorstenMandelkow.MetroChart.csprojAssemblyReference.cache
+D:\Repositorios\Avx\SiivasaAppClient\De.TorstenMandelkow.MetroChart\obj\Debug\De.TorstenMandelkow.MetroChart.csproj.CoreCompileInputs.cache
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart\obj\Debug\De.TorstenMandelkow.MetroChart.csprojAssemblyReference.cache
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart\obj\Debug\De.TorstenMandelkow.MetroChart.csproj.CoreCompileInputs.cache

@@ -23,16 +23,29 @@ namespace De.TorstenMandelkow.MetroChart
 {
     public class PlotterArea : ContentControl
     {
+        public static readonly DependencyProperty DataPointItemTemplateProperty =
+            DependencyProperty.Register("DataPointItemTemplate",
+            typeof(DataTemplate),
+            typeof(PlotterArea),
+            new PropertyMetadata(null));
+
+        public static readonly DependencyProperty DataPointItemsPanelProperty =
+            DependencyProperty.Register("DataPointItemsPanel",
+            typeof(ItemsPanelTemplate),
+            typeof(PlotterArea),
+            new PropertyMetadata(null));
+
         public static readonly DependencyProperty ChartLegendItemStyleProperty =
             DependencyProperty.Register("ChartLegendItemStyle",
             typeof(Style),
             typeof(PlotterArea),
             new PropertyMetadata(null));
-        public Style ChartLegendItemStyle
-        {
-            get { return (Style)GetValue(ChartLegendItemStyleProperty); }
-            set { SetValue(ChartLegendItemStyleProperty, value); }
-        }
+
+        public static readonly DependencyProperty ParentChartProperty =
+            DependencyProperty.Register("ParentChart",
+            typeof(ChartBase),
+            typeof(PlotterArea),
+            new PropertyMetadata(null));
 
         static PlotterArea()
         {
@@ -54,19 +67,14 @@ namespace De.TorstenMandelkow.MetroChart
 #else
             //do nothing
 #endif
+
         }
-
-        public static readonly DependencyProperty DataPointItemTemplateProperty =
-            DependencyProperty.Register("DataPointItemTemplate",
-            typeof(DataTemplate),
-            typeof(PlotterArea),
-            new PropertyMetadata(null));
-
-        public static readonly DependencyProperty DataPointItemsPanelProperty =
-            DependencyProperty.Register("DataPointItemsPanel",
-            typeof(ItemsPanelTemplate),
-            typeof(PlotterArea),
-            new PropertyMetadata(null));
+        
+        public Style ChartLegendItemStyle
+        {
+            get { return (Style)GetValue(ChartLegendItemStyleProperty); }
+            set { SetValue(ChartLegendItemStyleProperty, value); }
+        }
 
         public DataTemplate DataPointItemTemplate
         {
@@ -79,12 +87,6 @@ namespace De.TorstenMandelkow.MetroChart
             get { return (ItemsPanelTemplate)GetValue(DataPointItemsPanelProperty); }
             set { SetValue(DataPointItemsPanelProperty, value); }
         }
-
-        public static readonly DependencyProperty ParentChartProperty =
-            DependencyProperty.Register("ParentChart",
-            typeof(ChartBase),
-            typeof(PlotterArea),
-            new PropertyMetadata(null));
 
         public ChartBase ParentChart
         {

@@ -1,0 +1,11 @@
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\bin\Debug\De.TorstenMandelkow.MetroChart.pdb
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\De.TorstenMandelkow.MetroChart_MarkupCompile.cache
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\De.TorstenMandelkow.MetroChart_MarkupCompile.lref
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\Themes\Generic.baml
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\De.TorstenMandelkow.MetroChart.g.resources
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\De.TorstenMandelkow.MetroChart.WPF.csproj.CoreCompileInputs.cache
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\De.TorstenMandelkow.MetroChart.dll
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\De.TorstenMandelkow.MetroChart.pdb
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WPF\obj\Debug\De.TorstenMandelkow.MetroChart.WPF.csprojAssemblyReference.cache

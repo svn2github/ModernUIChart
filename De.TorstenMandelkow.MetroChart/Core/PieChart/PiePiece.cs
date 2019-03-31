@@ -29,81 +29,62 @@
     
 #endif
 
-    [TemplateVisualState(Name = PiePiece.StateSelectionUnselected, GroupName = PiePiece.GroupSelectionStates)]
-    [TemplateVisualState(Name = PiePiece.StateSelectionSelected, GroupName = PiePiece.GroupSelectionStates)]
-    public class PiePiece : Control
+    public class PiePiece : PieceBase
     {
         #region Fields
 
-        internal const string StateSelectionUnselected = "Unselected";
-        internal const string StateSelectionSelected = "Selected";
-        internal const string GroupSelectionStates = "SelectionStates";
-
-        public static readonly DependencyProperty ClientHeightProperty =
-            DependencyProperty.Register("ClientHeight", typeof(double), typeof(PiePiece),
-            new PropertyMetadata(0.0, new PropertyChangedCallback(OnSizeChanged)));
-        public static readonly DependencyProperty ClientWidthProperty =
-            DependencyProperty.Register("ClientWidth", typeof(double), typeof(PiePiece),
-            new PropertyMetadata(0.0, new PropertyChangedCallback(OnSizeChanged)));
+        private Path slice;
+        private Border label = null;
+                
         public static readonly DependencyProperty RadiusProperty =
             DependencyProperty.Register("Radius", typeof(double), typeof(PiePiece),
             new PropertyMetadata(0.0));
+        
         public static readonly DependencyProperty MaxValueProperty =
             DependencyProperty.Register("MaxValue", typeof(double), typeof(PiePiece),
             new PropertyMetadata(0.0, new PropertyChangedCallback(UpdatePie)));
+        
         public static readonly DependencyProperty SumOfDataSeriesProperty =
             DependencyProperty.Register("SumOfDataSeries", typeof(double), typeof(PiePiece),
             new PropertyMetadata(0.0, new PropertyChangedCallback(UpdatePie)));
+        
         public static readonly DependencyProperty ValueProperty =
             DependencyProperty.Register("Value", typeof(double), typeof(PiePiece),
             new PropertyMetadata(0.0, new PropertyChangedCallback(UpdatePie)));
+        
         public static readonly DependencyProperty StartValueProperty =
             DependencyProperty.Register("StartValue", typeof(double), typeof(PiePiece),
             new PropertyMetadata(0.0, new PropertyChangedCallback(UpdatePie)));
-        public static readonly DependencyProperty IsSelectedProperty =
-            DependencyProperty.Register("IsSelected", typeof(bool), typeof(PiePiece),
-            new PropertyMetadata(false, new PropertyChangedCallback(OnIsSelectedChanged)));
-        public static readonly DependencyProperty IsClickedByUserProperty =
-            DependencyProperty.Register("IsClickedByUser", typeof(bool), typeof(PiePiece),
-            new PropertyMetadata(false));
-
-        private static void OnIsSelectedChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            PiePiece source = (PiePiece)d;
-            bool oldValue = (bool)e.OldValue;
-            bool newValue = (bool)e.NewValue;
-            source.OnIsSelectedPropertyChanged(oldValue, newValue);
-        }
-
-        protected virtual void OnIsSelectedPropertyChanged(bool oldValue, bool newValue)
-        {
-            this.IsClickedByUser = false;
-            VisualStateManager.GoToState(this, newValue ? StateSelectionSelected : StateSelectionUnselected, true);
-        }
-
+        
+        public static readonly DependencyProperty DoughnutInnerRadiusRatioProperty =
+            DependencyProperty.Register("DoughnutInnerRadiusRatio", typeof(double), typeof(PiePiece),
+            new PropertyMetadata(0.0, OnDoughnutInnerRadiusRatioChanged));
+        
         public static readonly DependencyProperty GeometryProperty =
             DependencyProperty.Register("Geometry", typeof(Geometry), typeof(PiePiece),
             new PropertyMetadata(null));
+        
         public static readonly DependencyProperty SelectionGeometryProperty =
             DependencyProperty.Register("SelectionGeometry", typeof(Geometry), typeof(PiePiece),
             new PropertyMetadata(null));
+        
         public static readonly DependencyProperty MouseOverGeometryProperty =
             DependencyProperty.Register("MouseOverGeometry", typeof(Geometry), typeof(PiePiece),
             new PropertyMetadata(null));
+        
         public static readonly DependencyProperty LineGeometryProperty =
             DependencyProperty.Register("LineGeometry", typeof(Geometry), typeof(PiePiece),
             new PropertyMetadata(null));
-
+        
         public static readonly DependencyProperty LabelXPosProperty =
             DependencyProperty.Register("LabelXPos", typeof(double), typeof(PiePiece),
             new PropertyMetadata(10.0));
+        
         public static readonly DependencyProperty LabelYPosProperty =
             DependencyProperty.Register("LabelYPos", typeof(double), typeof(PiePiece),
             new PropertyMetadata(10.0));
 
         #endregion Fields
-
-        private Path slice;
 
         #region Constructors
 
@@ -132,106 +113,15 @@
             Loaded += PiePiece_Loaded;
         }
 
-        private static void UpdatePie(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            (d as PiePiece).DrawGeometry();
-        }
-
-        void PiePiece_Loaded(object sender, RoutedEventArgs e)
-        {
-              DrawGeometry();
-        }
-
         #endregion Constructors
-
-#if NETFX_CORE
-        protected override void OnApplyTemplate()
-        {
-            base.OnApplyTemplate();
-            InternalOnApplyTemplate();
-        }
-#else
-        public override void OnApplyTemplate()
-        {
-            base.OnApplyTemplate();
-            InternalOnApplyTemplate();
-        }
-#endif
-        TextBlock label = null;
-        private void InternalOnApplyTemplate()
-        {
-            label = this.GetTemplateChild("PART_Label") as TextBlock; 
-            slice = this.GetTemplateChild("Slice") as Path;
-            if (slice != null)
-            {
-#if NETFX_CORE
-                slice.PointerPressed += delegate 
-#else
-                slice.MouseLeftButtonUp += delegate
-#endif
-                {
-                    InternalMousePressed();
-                };
-
-#if NETFX_CORE
-                slice.PointerMoved += delegate
-#else
-                slice.MouseMove += delegate
-#endif
-                {
-                    InternalMouseMoved();
-                };
-            }
-        }
-
-        private void InternalMousePressed()
-        {
-            SetValue(PiePiece.IsClickedByUserProperty, true);
-        }
-
-        private void InternalMouseMoved()
-        {
-            //SetValue(PiePiece.Is, true);
-        }
-
+ 
         #region Properties
 
-        /// <summary>
-        /// Gets or sets the height of the client.
-        /// </summary>
-        /// <value>The height of the client.</value>
-        public string Caption
+        public double DoughnutInnerRadiusRatio
         {
-            get
-            {
-                return (this.DataContext as DataPoint).DisplayName;
-            }
-        }
-        
-        private static void OnSizeChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            //(d as PiePiece).DrawGeometry();
-        }
-        
-        /// <summary>
-        /// Gets or sets the height of the client.
-        /// </summary>
-        /// <value>The height of the client.</value>
-        public double ClientHeight
-        {
-            get { return (double)GetValue(ClientHeightProperty); }
-            set { SetValue(ClientHeightProperty, value); }
-        }
-
-        /// <summary>
-        /// Gets or sets the width of the client.
-        /// </summary>
-        /// <value>The width of the client.</value>
-        public double ClientWidth
-        {
-            get { return (double)GetValue(ClientWidthProperty); }
-            set { SetValue(ClientWidthProperty, value); }
-        }
+            get { return (double)GetValue(DoughnutInnerRadiusRatioProperty); }
+            set { SetValue(DoughnutInnerRadiusRatioProperty, value); }
+        }        
 
         public double LabelXPos
         {
@@ -250,7 +140,6 @@
             set { SetValue(LineGeometryProperty, value); }
         }
         
-        
         public Geometry Geometry
         {
             get { return (Geometry)GetValue(GeometryProperty); }
@@ -267,34 +156,6 @@
         {
             get { return (Geometry)GetValue(MouseOverGeometryProperty); }
             set { SetValue(MouseOverGeometryProperty, value); }
-        }
-
-        public bool IsSelected
-        {
-            get { return (bool)GetValue(IsSelectedProperty); }
-            set { SetValue(IsSelectedProperty, value); }
-        }
-
-        public bool IsClickedByUser
-        {
-            get { return (bool)GetValue(IsClickedByUserProperty); }
-            set { SetValue(IsClickedByUserProperty, value); }
-        }
-
-        /// <summary>
-        /// Gets or sets the percent.
-        /// </summary>
-        /// <value>The percent.</value>
-        public double Percent
-        {
-            get
-            {
-                if (SumOfDataSeries > 0.0)
-                {
-                    return (Value / SumOfDataSeries) * 100;
-                }
-                return 0.0;
-            }
         }
 
         /// <summary>
@@ -332,21 +193,65 @@
             get { return (double)GetValue(ValueProperty); }
             set { SetValue(ValueProperty, value); }
         }
+
+        /// <summary>
+        /// Gets or sets the percent.
+        /// </summary>
+        /// <value>The percent.</value>
+        public double Percent
+        {
+            get
+            {
+                if (SumOfDataSeries > 0.0)
+                {
+                    return (Value / SumOfDataSeries) * 100;
+                }
+                return 0.0;
+            }
+        }
+
+        public bool IsDoughnut
+        {
+            get
+            {
+                if (this.ParentChart is DoughnutChart)
+                {
+                    return true;
+                }
+                return false;
+            }
+        }
         
         #endregion Properties
 
         #region Methods
 
-        /// <summary>
-        /// Draws the geometry.
-        /// </summary>
-        /// <param name="context">The context.</param>
-        private void DrawGeometry()
+        private static void UpdatePie(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            (d as PiePiece).DrawGeometry();
+        }
+        
+        private static void OnDoughnutInnerRadiusRatioChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            (d as PiePiece).DrawGeometry();
+        }
+
+        void PiePiece_Loaded(object sender, RoutedEventArgs e)
+        {
+            DrawGeometry();
+        }
+
+        protected override void InternalOnApplyTemplate()
+        {
+            label = this.GetTemplateChild("PART_Label") as Border;
+            slice = this.GetTemplateChild("Slice") as Path;
+            RegisterMouseEvents(slice);
+        }
+
+        protected override void DrawGeometry(bool withAnimation = true)
         {    
             try
             {
-                //Children.Clear();
-
                 if (this.ClientWidth <= 0.0)
                 {
                     return;
@@ -370,7 +275,7 @@
                     double radius = GetRadius();
                     bool isLarge = (endAngle - startAngle) > 180.0;
 
-                    LayoutSegment(startAngle, endAngle, radius, 0.25, center, true);
+                    LayoutSegment(startAngle, endAngle, radius, this.DoughnutInnerRadiusRatio, center, this.IsDoughnut);
                 }
             }
             catch (Exception ex)
@@ -378,50 +283,39 @@
             }
         }
 
-        
-#if NETFX_CORE
-         protected override void OnPointerPressed(Windows.UI.Xaml.Input.PointerRoutedEventArgs e)
-        {
-            base.OnPointerPressed(e);
-            HandleMouseDown();
-            e.Handled = true;
-        }
-#else
-        protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
-        {
-            base.OnMouseLeftButtonDown(e);
-            HandleMouseDown();
-            e.Handled = true;
-        }
-#endif
-
-         private void HandleMouseDown()
+         private Point GetCircumferencePoint(double angle, double radius, double centerx, double centery)
          {
-             IsClickedByUser = true;
-            // IsSelected = true; // (ModifierKeys.None == (ModifierKeys.Control & Keyboard.Modifiers));
-             /*if (IsSelectionEnabled)
-            {
-                IsSelected = (ModifierKeys.None == (ModifierKeys.Control & Keyboard.Modifiers));
-                e.Handled = true;
-            }
-             * */
+             angle = angle - 90;
+
+             double angleRad = (Math.PI / 180.0) * angle;
+
+             double x = centerx + radius * Math.Cos(angleRad);
+             double y = centery + radius * Math.Sin(angleRad);
+
+             return new Point(x, y);
          }
-        private Point GetCircumferencePoint(double angle, double radius, double centerx, double centery)
-        {
-            angle = angle - 90;
 
-            double angleRad = (Math.PI / 180.0) * angle;
-
-            double x = centerx + radius * Math.Cos(angleRad);
-            double y = centery + radius * Math.Sin(angleRad);
-
-            return new Point(Math.Ceiling(x), Math.Ceiling(y));
-        }
-
-        private void LayoutSegment(double startAngle, double endAngle, double radius, double gapScale, Point center, bool isDoughnut)
+        internal void LayoutSegment(double startAngle, double endAngle, double radius, double gapScale, Point center, bool isDoughnut)
         {
             try
-            {
+            {                
+                if (startAngle > 360)
+                {
+                    return;
+                }
+                if (endAngle > 360)
+                {
+                    return;
+                }
+                if ((startAngle == 0.0) && (endAngle == 0.0))
+                {
+                    return;
+                }
+                if (endAngle > 359.5)
+                {
+                    endAngle = 359.5;    //pie disappears if endAngle is 360                 
+                }
+
                 // Segment Geometry
                 double pieRadius = radius;
                 double gapRadius = pieRadius * ((gapScale == 0.0) ? 0.25 : gapScale);
@@ -502,14 +396,13 @@
                 pointOnCircle = GetCircumferencePoint(midAngle, pieRadius, center.X, center.Y);
 
                 Point pointOuterCircle = GetCircumferencePoint(midAngle, pieRadius + 10, center.X, center.Y);
-                Point pointerMoreOuter = new Point(pointOuterCircle.X - 20, pointOuterCircle.Y);
+                Point pointerMoreOuter = new Point(pointOuterCircle.X - 10, pointOuterCircle.Y);
                 if (pointOnCircle.X > center.X)
                 {
-                    pointerMoreOuter = new Point(pointOuterCircle.X + 20, pointOuterCircle.Y);
+                    pointerMoreOuter = new Point(pointOuterCircle.X + 10, pointOuterCircle.Y);
                 }
 
                 PathSegmentCollection linesegments = new PathSegmentCollection();
-                //linesegments.Add(new LineSegment() { Point = pointOnCircle });
                 linesegments.Add(new LineSegment() { Point = pointOuterCircle });
                 linesegments.Add(new LineSegment() { Point = pointerMoreOuter });
 
@@ -532,86 +425,23 @@
                     }
                 };
                 SetValue(PiePiece.LineGeometryProperty, CloneDeep(linesegmentPath.Data as PathGeometry));
-
-                //SetValue(PiePiece.LabelXPosProperty, pointerMoreOuter.X);
-                //SetValue(PiePiece.LabelYPosProperty, pointerMoreOuter.Y);
-
-                label.Measure(new Size(400, 400));
+                /*
+                label.Measure(new Size(420, 420));
+                double labelwidth = label.DesiredSize.Width;
+                double labelwidth = label.DesiredSize.Width;
+                
                 Size s = label.DesiredSize;
                 double x = this.Value;
-
-                label.SetValue(Canvas.TopProperty, pointerMoreOuter.Y - (label.DesiredSize.Height / 2.0));
+                */
+                label.SetValue(Canvas.TopProperty, pointerMoreOuter.Y - (label.ActualHeight / 2.0));
                 if (pointerMoreOuter.X > center.X)
                 {
                     label.SetValue(Canvas.LeftProperty, pointerMoreOuter.X);
                 }
                 else
                 {
-                    label.SetValue(Canvas.LeftProperty, pointerMoreOuter.X - (label.DesiredSize.Width));
-                }
-                //Geometry = segmentPath.Data;
-
-                // Segment MouseEnter Animation
-                /*
-#if NETFX_CORE
-            segmentPath.PointerPressed += delegate
-#else
-                segmentPath.MouseLeftButtonUp += delegate
-#endif
-                {
-                    if (true) //!segment.IsAnimating)
-                    {
-                        //IsSelected = true;
-
-                        //segment.IsAnimating = true;
-
-                        Point transBy = GetCircumferencePoint(midAngle, 20.0, center.X, center.Y);
-                        Point translate = new Point(transBy.X - center.X, transBy.Y - center.Y);
-
-                        TranslateTransform tt = new TranslateTransform();
-                        segmentPath.RenderTransform = tt;
-                        segmentLabel.RenderTransform = tt;
-
-                        Duration dur = new Duration(TimeSpan.FromSeconds(1.0));
-
-                        DoubleAnimation xda = new DoubleAnimation();
-                        xda.To = translate.X;
-                        xda.EasingFunction = new QuarticEase() { EasingMode = EasingMode.EaseOut };
-                        xda.Duration = dur;
-
-                        DoubleAnimation yda = new DoubleAnimation();
-                        yda.EasingFunction = new QuarticEase() { EasingMode = EasingMode.EaseOut };
-                        yda.To = translate.Y;
-                        yda.Duration = dur;
-
-
-                        Storyboard sb = new Storyboard();
-                        sb.FillBehavior = FillBehavior.HoldEnd;
-
-                        sb.Children.Add(xda);
-                        sb.Children.Add(yda);
-
-                        Storyboard.SetTarget(xda, tt);
-                        Storyboard.SetTarget(yda, tt);
-
-#if NETFX_CORE
-                    Storyboard.SetTargetProperty(xda, "(TranslateTransform.X)");
-                    Storyboard.SetTargetProperty(yda, "(TranslateTransform.Y)");
-#else
-                        Storyboard.SetTargetProperty(xda, new PropertyPath(TranslateTransform.XProperty));
-                        Storyboard.SetTargetProperty(yda, new PropertyPath(TranslateTransform.YProperty));
-#endif
-                        sb.Completed += delegate
-                        {
-                            //segment.IsAnimating = false; 
-                        };
-                        sb.Begin();
-                    }
-                };
-
-                //this.Children.Add(segmentPath);
-                //this.Children.Add(segmentLabel);
-                */
+                    label.SetValue(Canvas.LeftProperty, pointerMoreOuter.X - (label.ActualWidth));
+                }                
             }
             catch (Exception ex)
             {
@@ -710,20 +540,18 @@
         private double GetRadius()
         {
             double result;
-            if (ClientHeight < ClientWidth)
+            if (ClientHeight < (ClientWidth - 50))
             {
                 result = ClientHeight / 2;
             }
             else
             {
-                result = ClientWidth / 2;
+                result = (ClientWidth - 50) / 2;
             }
 
-            return result - 20;
+            return result - 10;
         }
 
         #endregion Methods
-
-        public event PropertyChangedEventHandler PropertyChanged;
     }
 }

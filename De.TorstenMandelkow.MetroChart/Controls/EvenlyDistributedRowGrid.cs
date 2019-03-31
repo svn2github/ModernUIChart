@@ -23,6 +23,11 @@
 
     public class EvenlyDistributedRowGrid : Panel
     {
+        public EvenlyDistributedRowGrid()
+        {
+            // this.Background = new SolidColorBrush(Colors.Green);
+        }
+
         public static readonly DependencyProperty IsReverseOrderProperty =
             DependencyProperty.Register("IsReverseOrder",
             typeof(bool),
@@ -37,28 +42,73 @@
 
         protected override Size MeasureOverride(Size availableSize)
         {
-            //Size minimumSize = new Size(40.0, 1000.0);
+            Size returnedSize = availableSize;
 
-            double largestElementWidth = 0.0;
+            if (double.IsInfinity(availableSize.Height))
+            {
+                // ok, we have all the space we need, so we take it
+                double maxColumnWidth = 0.0;
+                double minColumnHeight = 0.0;
+                foreach (UIElement child in Children)
+                {
+                    child.Measure(availableSize);
+                    if (maxColumnWidth < child.DesiredSize.Width)
+                    {
+                        maxColumnWidth = child.DesiredSize.Width;
+                    }
+                    if (minColumnHeight < child.DesiredSize.Height)
+                    {
+                        minColumnHeight = child.DesiredSize.Height;
+                    }
+                }
+
+                returnedSize.Width = maxColumnWidth;
+                returnedSize.Height = minColumnHeight * Children.Count;
+                return returnedSize;
+            }
+            else
+            {
+                // oh no, the height is limited, so we can only take this height
+                double spaceForHeight = availableSize.Height / Children.Count;
+
+                double maxColumnWidth = 0.0;
+                double minColumnHeight = 0.0;
+                foreach (UIElement child in Children)
+                {
+                    child.Measure(new Size(availableSize.Width, spaceForHeight));
+                    if (maxColumnWidth < child.DesiredSize.Width)
+                    {
+                        maxColumnWidth = child.DesiredSize.Width;
+                    }
+                    if (minColumnHeight < child.DesiredSize.Height)
+                    {
+                        minColumnHeight = child.DesiredSize.Height;
+                    }
+                }
+
+                returnedSize.Width = maxColumnWidth;
+                returnedSize.Height = minColumnHeight * Children.Count;
+                return returnedSize;
+            }
+        }
+
+        private double GetLargestElementWidth(Size availableSize)
+        {
+            double minimalWidth = 0.0;
             foreach (UIElement child in Children)
             {
                 child.Measure(availableSize);
-                if (child.DesiredSize.Width > largestElementWidth)
+                if (child.DesiredSize.Width > minimalWidth)
                 {
-                    largestElementWidth = child.DesiredSize.Width;
+                    minimalWidth = child.DesiredSize.Width;
                 }
             }
-            Size result = base.MeasureOverride(availableSize);
-            if (largestElementWidth > 0.0)
-            {
-                return new Size(largestElementWidth, result.Height);
-            }
-            return result;
+            return minimalWidth;
         }
 
         protected override Size ArrangeOverride(Size finalSize)
         {
-            Size cellSize = new Size(Math.Ceiling(finalSize.Width), finalSize.Height / Children.Count);
+            Size cellSize = new Size(finalSize.Width, finalSize.Height / Children.Count);
             int row = 0, col = 0;
             double reverseStartPoint = finalSize.Height - cellSize.Height;
             foreach (UIElement child in Children)
@@ -73,7 +123,18 @@
                 }
                 row++;
             }
-            return finalSize;
+
+            /*
+            if (minimalWidth > 0.0)
+            {
+                if (this.Width != minimalWidth)
+                {
+                    this.Width = minimalWidth;
+                }
+            }
+            */
+
+            return new Size(finalSize.Width, finalSize.Height);
         }
     }
 }

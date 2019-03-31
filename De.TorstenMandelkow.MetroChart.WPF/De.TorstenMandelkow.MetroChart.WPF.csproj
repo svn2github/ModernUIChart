@@ -74,9 +74,6 @@
     <Compile Include="..\De.TorstenMandelkow.MetroChart\Controls\FadingListView.cs">
       <Link>Controls\FadingListView.cs</Link>
     </Compile>
-    <Compile Include="..\De.TorstenMandelkow.MetroChart\Controls\GridHelpers.cs">
-      <Link>Controls\GridHelpers.cs</Link>
-    </Compile>
     <Compile Include="..\De.TorstenMandelkow.MetroChart\Controls\MinimalWidthTextBlock.cs">
       <Link>Controls\MinimalWidthTextBlock.cs</Link>
     </Compile>
