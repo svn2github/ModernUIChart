@@ -19,7 +19,7 @@
       <RootProperty Name="MergedDictionaries" />
       <RootProperty Name="Source" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ResourceDictionaryCollection" />
+    <RootType FullName="ModernUICharts.ResourceDictionaryCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
     </RootType>
@@ -74,7 +74,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ClusteredBarChart">
+    <RootType FullName="ModernUICharts.ClusteredBarChart">
       <RootProperty Name="ChartSubTitle" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="SelectedItem" />
@@ -82,7 +82,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="SeriesTemplate" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedBarChart">
+    <RootType FullName="ModernUICharts.StackedBarChart">
       <RootProperty Name="ChartSubTitle" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="SelectedItem" />
@@ -90,7 +90,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="SeriesTemplate" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedBar100Chart">
+    <RootType FullName="ModernUICharts.StackedBar100Chart">
       <RootProperty Name="ChartSubTitle" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="SelectedItem" />
@@ -106,20 +106,20 @@
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartSeries">
+    <RootType FullName="ModernUICharts.ChartSeries">
       <RootProperty Name="DisplayMember" />
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="SeriesTitle" />
       <RootProperty Name="ValueMember" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.PieChart">
+    <RootType FullName="ModernUICharts.PieChart">
       <RootProperty Name="ChartSubTitle" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="Style" />
       <RootProperty Name="Series" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ClusteredColumnChart">
+    <RootType FullName="ModernUICharts.ClusteredColumnChart">
       <RootProperty Name="ChartSubTitle" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="Palette" />
@@ -129,7 +129,7 @@
       <RootProperty Name="SeriesTemplate" />
       <RootProperty Name="Series" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedColumnChart">
+    <RootType FullName="ModernUICharts.StackedColumnChart">
       <RootProperty Name="ChartSubTitle" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="SelectedItem" />
@@ -137,7 +137,7 @@
       <RootProperty Name="Style" />
       <RootProperty Name="SeriesTemplate" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedColumn100Chart">
+    <RootType FullName="ModernUICharts.StackedColumn100Chart">
       <RootProperty Name="ChartSubTitle" />
       <RootProperty Name="ChartTitle" />
       <RootProperty Name="SelectedItem" />
@@ -215,7 +215,7 @@
       <RootMethod Name="GetItemType" />
       <RootMethod Name="SetItemType" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartBase" />
+    <RootType FullName="ModernUICharts.ChartBase" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem" />
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />

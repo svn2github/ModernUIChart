@@ -162,9 +162,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\De.TorstenMandelkow.MetroChart.WinRT\De.TorstenMandelkow.MetroChart.WinRT.csproj">
+    <ProjectReference Include="..\De.TorstenMandelkow.MetroChart.WinRT\ModernUI.Charts.UWP.csproj">
       <Project>{91f912af-424b-4d39-a245-db3c61384041}</Project>
-      <Name>De.TorstenMandelkow.MetroChart.WinRT</Name>
+      <Name>ModernUI.Charts.UWP</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

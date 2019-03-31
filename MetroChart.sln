@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApplications", "TestApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication.Shared", "TestApplication.Shared\TestApplication.Shared.csproj", "{BE0FB0DA-8BC0-4604-B865-F0DFC7E9FF10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "De.TorstenMandelkow.MetroChart.WinRT", "De.TorstenMandelkow.MetroChart.WinRT\De.TorstenMandelkow.MetroChart.WinRT.csproj", "{91F912AF-424B-4D39-A245-DB3C61384041}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUI.Charts.UWP", "De.TorstenMandelkow.MetroChart.WinRT\ModernUI.Charts.UWP.csproj", "{91F912AF-424B-4D39-A245-DB3C61384041}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUICharts", "De.TorstenMandelkow.MetroChart\ModernUICharts.csproj", "{FA286411-E476-4BD0-ABE9-7AE69226069C}"
 EndProject

@@ -9,7 +9,7 @@
 
 
 
-namespace De.TorstenMandelkow.MetroChart.WinRT.De_TorstenMandelkow_MetroChart_WinRT_XamlTypeInfo
+namespace ModernUI.Charts.UWP.ModernUI_Charts_UWP_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -18,15 +18,15 @@ namespace De.TorstenMandelkow.MetroChart.WinRT.De_TorstenMandelkow_MetroChart_Wi
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::De.TorstenMandelkow.MetroChart.WinRT.De_TorstenMandelkow_MetroChart_WinRT_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::ModernUI.Charts.UWP.ModernUI_Charts_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::De.TorstenMandelkow.MetroChart.WinRT.De_TorstenMandelkow_MetroChart_WinRT_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::ModernUI.Charts.UWP.ModernUI_Charts_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::De.TorstenMandelkow.MetroChart.WinRT.De_TorstenMandelkow_MetroChart_WinRT_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::ModernUI.Charts.UWP.ModernUI_Charts_UWP_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

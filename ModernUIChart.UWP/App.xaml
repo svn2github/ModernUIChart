@@ -2,7 +2,7 @@
     x:Class="ModernUIChart.UWP.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:chart="using:De.TorstenMandelkow.MetroChart">
+    xmlns:chart="using:ModernUICharts">
 
     <Application.Resources>
         <ResourceDictionary>
