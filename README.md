@@ -29,11 +29,11 @@ I have decided to port this project to UWP because the author did a great job bu
 ![enter image description here](https://lh3.googleusercontent.com/5yu-ezTisEdoYwpiQWrFa--6SLdox_IA9sq93i4d89bh2knaMIk00uZ8zYr0WpOSX_dld96ZXIDp)
 
 # Roadmap
-
-
+ - **Nuget Package support**
  - Fixing existing Bugs
  - Native support for Light and Dark Themes 
- - Line Chart 
+ - Line Chart support
+ - Area Chart support
  - Financial Charts & Indicators
  - Port to Net Standard 2.0
  - Support for Xamarin Forms
@@ -175,5 +175,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTM5NDY2MCwtNDcxODE4OTVdfQ==
+eyJoaXN0b3J5IjpbNTEyNTQxMTM1LC00NzE4MTg5NV19
 -->
