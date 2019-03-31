@@ -22,7 +22,6 @@ I have decided to port this project to UWP because the author did a great job bu
  - Switchable series
  - Configurable font size
 
-![ScreenShot](https://pasteboard.co/I7W0f11.png)
 
 # Files
 
@@ -163,5 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAyMzI5MjMsMzM2NDg3MDE2XX0=
+eyJoaXN0b3J5IjpbMzM2NDg3MDE2LC0xMDcwMjMyOTIzLDMzNj
+Q4NzAxNl19
 -->
