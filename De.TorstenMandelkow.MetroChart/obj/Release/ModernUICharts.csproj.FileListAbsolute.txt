@@ -1,0 +1,2 @@
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart\obj\Release\ModernUICharts.csprojAssemblyReference.cache
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart\obj\Release\ModernUICharts.csproj.CoreCompileInputs.cache
