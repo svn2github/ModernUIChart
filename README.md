@@ -30,9 +30,12 @@ I have decided to port this project to UWP because the author did a great job bu
 
 # Roadmap
 
+ - Fixing existing Bugs
  - Native support for Light and Dark Themes 
  - Line Chart 
- - Financial Charts & Indicato
+ - Financial Charts & Indicators
+ - Port to Net Standard 2.0
+ - Support for Xamarin Forms
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -171,5 +174,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ5NDczMzVdfQ==
+eyJoaXN0b3J5IjpbLTQ3MTgxODk1XX0=
 -->
