@@ -23,5 +23,6 @@
     <PkgMicrosoft_Net_Native_SharedLibrary-x64 Condition=" '$(PkgMicrosoft_Net_Native_SharedLibrary-x64)' == '' ">C:\Users\Ricardo\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.6.1</PkgMicrosoft_Net_Native_SharedLibrary-x64>
     <PkgMicrosoft_Net_Native_SharedLibrary-arm Condition=" '$(PkgMicrosoft_Net_Native_SharedLibrary-arm)' == '' ">C:\Users\Ricardo\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.6.1</PkgMicrosoft_Net_Native_SharedLibrary-arm>
     <PkgMicrosoft_Net_Native_Compiler Condition=" '$(PkgMicrosoft_Net_Native_Compiler)' == '' ">C:\Users\Ricardo\.nuget\packages\microsoft.net.native.compiler\1.6.2</PkgMicrosoft_Net_Native_Compiler>
+    <PkgMicrosoft_DotNet_BuildTools_GenAPI Condition=" '$(PkgMicrosoft_DotNet_BuildTools_GenAPI)' == '' ">C:\Users\Ricardo\.nuget\packages\microsoft.dotnet.buildtools.genapi\1.0.0-beta-00081</PkgMicrosoft_DotNet_BuildTools_GenAPI>
   </PropertyGroup>
 </Project>

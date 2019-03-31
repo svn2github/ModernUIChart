@@ -29,6 +29,12 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.BuildTools.GenAPI.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/1.6.2": {
         "type": "package",
         "dependencies": {
@@ -2230,6 +2236,12 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.BuildTools.GenAPI.targets": {}
         }
       },
       "Microsoft.Net.Native.Compiler/1.6.2": {
@@ -4517,6 +4529,12 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.BuildTools.GenAPI.targets": {}
         }
       },
       "Microsoft.Net.Native.Compiler/1.6.2": {
@@ -6842,6 +6860,12 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.BuildTools.GenAPI.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/1.6.2": {
         "type": "package",
         "dependencies": {
@@ -9136,6 +9160,12 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.BuildTools.GenAPI.targets": {}
         }
       },
       "Microsoft.Net.Native.Compiler/1.6.2": {
@@ -11470,6 +11500,12 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.BuildTools.GenAPI.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/1.6.2": {
         "type": "package",
         "dependencies": {
@@ -13764,6 +13800,12 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.BuildTools.GenAPI.targets": {}
         }
       },
       "Microsoft.Net.Native.Compiler/1.6.2": {
@@ -16128,6 +16170,30 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.DotNet.BuildTools.GenAPI/1.0.0-beta-00081": {
+      "sha512": "J7WJ+TSiuH+NxU5lQ1VATQP8o3APLpSZGY2m6vXO27NQf7JzfPNQAqjxCEJ6ej7qgD//GfUg/DDWcU523fF/Lg==",
+      "type": "package",
+      "path": "microsoft.dotnet.buildtools.genapi/1.0.0-beta-00081",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.DotNet.BuildTools.GenAPI.targets",
+        "microsoft.dotnet.buildtools.genapi.1.0.0-beta-00081.nupkg.sha512",
+        "microsoft.dotnet.buildtools.genapi.nuspec",
+        "tools/GenAPI.exe",
+        "tools/GenAPI.exe.config",
+        "tools/Microsoft.Cci.Extensions.dll",
+        "tools/Microsoft.Cci.dll",
+        "tools/System.Collections.NonGeneric.dll",
+        "tools/System.Console.dll",
+        "tools/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/System.Diagnostics.TraceSource.dll",
+        "tools/System.IO.FileSystem.Primitives.dll",
+        "tools/System.IO.FileSystem.dll",
+        "tools/System.Reflection.TypeExtensions.dll"
       ]
     },
     "Microsoft.Net.Native.Compiler/1.6.2": {
@@ -25165,6 +25231,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
+      "Microsoft.DotNet.BuildTools.GenAPI >= 1.0.0-beta-00081",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
       "System.Collections.NonGeneric >= 4.3.0"
     ]
@@ -25206,6 +25273,10 @@
     "frameworks": {
       "uap10.0.15063": {
         "dependencies": {
+          "Microsoft.DotNet.BuildTools.GenAPI": {
+            "target": "Package",
+            "version": "[1.0.0-beta-00081, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[5.3.3, )"

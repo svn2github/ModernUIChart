@@ -1,0 +1,2 @@
+D:\ModernUIChart\ModernUI.Charts.UWP.Ref\obj\Release\ModernUI.Charts.UWP.Ref.csprojAssemblyReference.cache
+D:\ModernUIChart\ModernUI.Charts.UWP.Ref\obj\Release\ModernUI.Charts.UWP.Ref.csproj.CoreCompileInputs.cache

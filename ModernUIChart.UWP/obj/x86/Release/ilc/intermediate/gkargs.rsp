@@ -1,7 +1,0 @@
-/In:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in"
-/Lib:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in"
-/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private"
-/WinMD:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"952e69b3-a365-42b5-a4e9-d179145c14c8","Id":"e18b0638-4b82-46ed-8507-68a87590477d","ProcessStartTime":636896224619772026}"
-/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\LibraryXML"
-/RunOnlyPreDR

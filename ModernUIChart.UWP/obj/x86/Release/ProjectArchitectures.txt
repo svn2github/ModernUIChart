@@ -1,2 +1,0 @@
-D:\ModernUIChart\ModernUI.Charts.UWP\ModernUI.Charts.UWP.csproj;x86
-D:\ModernUIChart\ModernUIChart.UWP\ModernUIChart.UWP.csproj;x86

@@ -47,20 +47,5 @@
     </dependencies>
  
   </metadata>
-  <files>
-    <file src="..\bin\Release\Themes\Generic.xbf" target="lib\uap10.0\Themes"/>
-    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.pri" target="lib\uap10.0"/>
-    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.xr" target="lib\uap10.0"/>
-    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.pri" target="lib\uap10.0"/>
-    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.xr" target="lib\uap10.0"/>
-    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.pri" target="lib\uap10.0"/>
-    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.xr" target="lib\uap10.0"/>
-    <file src="..\bin\Release\ModernUI.Charts.UWP.dll" target="ref\uap10.0" />
-    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.dll" target="runtimes\win10-arm\lib\uap10.0" />
-    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.pdb" target="runtimes\win10-arm\lib\uap10.0" />
-    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.dll" target="runtimes\win10-x86\lib\uap10.0" />
-    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.pdb" target="runtimes\win10-x86\lib\uap10.0" />
-    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.dll" target="runtimes\win10-x64\lib\uap10.0" />
-    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.pdb" target="runtimes\win10-x64\lib\uap10.0" />
-  </files>
+  
 </package>
