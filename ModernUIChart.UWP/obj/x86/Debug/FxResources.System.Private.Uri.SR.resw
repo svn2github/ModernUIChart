@@ -123,6 +123,9 @@
   <data name="net_uri_BadUnicodeHostForIdn" xml:space="preserve">
     <value>An invalid Unicode character by IDN standards was specified in the host.</value>
   </data>
+  <data name="net_uri_AlreadyRegistered" xml:space="preserve">
+    <value>A URI scheme name '{0}' already has a registered custom parser.</value>
+  </data>
   <data name="Debug_Fail" xml:space="preserve">
     <value>Fail: {0}</value>
   </data>
@@ -145,7 +148,7 @@
     <value>Could not find a part of the path '{0}'.</value>
   </data>
   <data name="Argument_AddingDuplicate" xml:space="preserve">
-    <value>An item with the same key has already been added. Key: {0}</value>
+    <value>An item with the same key has already been added.</value>
   </data>
   <data name="net_uri_BadHostName" xml:space="preserve">
     <value>Invalid URI: The hostname could not be parsed.</value>
@@ -157,7 +160,7 @@
     <value>Specified file length was too large for the file system.</value>
   </data>
   <data name="IO_PathTooLong" xml:space="preserve">
-    <value>The specified file name or path is too long, or a component of the specified path is too long.</value>
+    <value>The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.</value>
   </data>
   <data name="AssertionFailed" xml:space="preserve">
     <value>Assertion failed.</value>
@@ -195,14 +198,14 @@
   <data name="net_uri_NotAbsolute" xml:space="preserve">
     <value>This operation is not supported for a relative URI.</value>
   </data>
+  <data name="net_uri_NeedFreshParser" xml:space="preserve">
+    <value>The URI parser instance passed into 'uriParser' parameter is already registered with the scheme name '{0}'.</value>
+  </data>
   <data name="IO_PathNotFound_NoPathName" xml:space="preserve">
     <value>Could not find a part of the path.</value>
   </data>
   <data name="DebugAssertLongMessage" xml:space="preserve">
     <value>---- Assert Long Message ----</value>
-  </data>
-  <data name="Argument_InvalidNormalizationForm" xml:space="preserve">
-    <value>Invalid normalization form.</value>
   </data>
   <data name="net_uri_NotJustSerialization" xml:space="preserve">
     <value>UriComponents.SerializationInfoString must not be combined with other UriComponents.</value>
@@ -222,9 +225,6 @@
   <data name="Argument_InvalidCharSequenceNoIndex" xml:space="preserve">
     <value>String contains invalid Unicode code points.</value>
   </data>
-  <data name="Argument_ExtraNotValid" xml:space="preserve">
-    <value>Extra portion of URI not valid.</value>
-  </data>
   <data name="net_uri_BadAuthorityTerminator" xml:space="preserve">
     <value>Invalid URI: The Authority/Host cannot end with a backslash character ('\\').</value>
   </data>
@@ -242,9 +242,6 @@
   </data>
   <data name="net_uri_BadFormat" xml:space="preserve">
     <value>Invalid URI: The format of the URI could not be determined.</value>
-  </data>
-  <data name="Argument_InvalidUriSubcomponent" xml:space="preserve">
-    <value>The subcomponent, {0}, of this uri is not valid.</value>
   </data>
   <data name="UnknownError_Num" xml:space="preserve">
     <value>Unknown error '{0}'.</value>

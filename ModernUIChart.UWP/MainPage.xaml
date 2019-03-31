@@ -24,7 +24,7 @@
                     Grid.Column="1"
                     VerticalAlignment="Bottom"
                     Style="{StaticResource PageHeaderTextStyle}"
-                    Text="Modern UI Charts" />
+                    Text="Modern UI Charts Demo" />
             </Border>
         </Grid>
         <ScrollViewer

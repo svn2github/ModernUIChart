@@ -27,3 +27,4 @@ D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\ModernUI.Charts.
 D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\ModernUI.Charts.UWP.pri
 D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\ModernUI.Charts.UWP.dll
 D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\ModernUI.Charts.UWP.pdb
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\ModernUI.Charts.UWP.csprojAssemblyReference.cache

@@ -70,88 +70,88 @@
     <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.collections\4.3.0\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.diagnostics.tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.diagnostics.tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.globalization\4.3.0\lib\netcore50\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.globalization.calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.io\4.3.0\lib\netcore50\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.reflection\4.3.0\lib\netcore50\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.reflection.extensions\4.3.0\lib\netcore50\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.reflection.primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.resources.resourcemanager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.runtime\4.3.0\lib\netcore50\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.runtime.handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.runtime.interopservices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.text.encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.text.encoding.extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.threading.tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.any.system.threading.timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win.microsoft.win32.primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win.system.diagnostics.debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win.system.io.filesystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win.system.net.primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win.system.net.sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win.system.runtime.extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
       <PackagePath>clrjit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.3.0\runtimes\win7-x86\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7.system.private.uri\4.0.4\runtimes\win\lib\netstandard1.0\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\runtime.win7.system.private.uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
@@ -160,7 +160,7 @@
     <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.collections.nongeneric\4.3.0\lib\netstandard1.3\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
@@ -199,7 +199,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
@@ -343,7 +343,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.threading\4.3.0\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ricardo\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
