@@ -5,10 +5,18 @@ https://github.com/svn2github/ModernUIChart
 
 I have decided to port this project to UWP because the author did a great job building Charts for Universal Windows Applications.
 
-This version supports:
+**This version supports:**
 
  - ColumnChart (ClusteredColumnChart, StackedColumnChart, StackedColumnChart100Percent)
- - 
+ - PieChart (PieChart and Dognut)
+ - BarChart (ClusteredBarChart, StackedBarChart, StackedBarChart100Percent)
+ - Doughnut Chart
+ - Radial Gauge Chart
+
+**Current Features (from the original Project)**
+
+ - Dynamic binding of data
+ - Animation after loading and after changes to underlying data
 
 # Files
 
@@ -149,5 +157,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDAyNDIxNTldfQ==
+eyJoaXN0b3J5IjpbLTE4OTExMDY1ODBdfQ==
 -->
