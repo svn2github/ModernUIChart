@@ -29139,8 +29139,8 @@
     },
     "ModernUI.Charts.UWP/1.0.0": {
       "type": "project",
-      "path": "../De.TorstenMandelkow.MetroChart.WinRT/ModernUI.Charts.UWP.csproj",
-      "msbuildProject": "../De.TorstenMandelkow.MetroChart.WinRT/ModernUI.Charts.UWP.csproj"
+      "path": "../ModernUI.Charts.UWP/ModernUI.Charts.UWP.csproj",
+      "msbuildProject": "../ModernUI.Charts.UWP/ModernUI.Charts.UWP.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -29180,8 +29180,8 @@
       "frameworks": {
         "uap10.0.15063": {
           "projectReferences": {
-            "D:\\ModernUIChart\\De.TorstenMandelkow.MetroChart.WinRT\\ModernUI.Charts.UWP.csproj": {
-              "projectPath": "D:\\ModernUIChart\\De.TorstenMandelkow.MetroChart.WinRT\\ModernUI.Charts.UWP.csproj"
+            "D:\\ModernUIChart\\ModernUI.Charts.UWP\\ModernUI.Charts.UWP.csproj": {
+              "projectPath": "D:\\ModernUIChart\\ModernUI.Charts.UWP\\ModernUI.Charts.UWP.csproj"
             }
           }
         }

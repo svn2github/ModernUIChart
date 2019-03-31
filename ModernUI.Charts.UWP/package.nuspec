@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>ModernUI.Charts.UWP</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>Modern UI Charts for UWP</title>
+    <!--*-->
+    <authors>Ricardo Pons</authors>
+    <owners>Ricardo Pons</owners>
+
+    <licenseUrl>https://github.com/RikardoPons/ModernUIChart/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RikardoPons/ModernUIChart</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--*-->
+    <description>small library to display charts in Modern UI Style for UWP Apps</description>
+    <!--*-->
+    <releaseNotes>
+      
+    This version supports:
+
+    ColumnChart (ClusteredColumnChart, StackedColumnChart, StackedColumnChart100Percent)
+    PieChart (PieChart and Dognut)
+    BarChart (ClusteredBarChart, StackedBarChart, StackedBarChart100Percent)
+    Doughnut Chart
+    Radial Gauge Chart
+
+    Current Features (from the original Project)
+
+    Dynamic binding of data
+    Animation after loading and after changes to underlying data
+    Custom Color Palette
+    Hidable Title and Legend
+    Switchable series
+    Configurable font size
+
+    </releaseNotes>
+    <copyright>copyright 2019</copyright>
+    <tags>uwp,chart</tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+ 
+  </metadata>
+  <files>
+    <file src="..\bin\Release\Themes\Generic.xbf" target="lib\uap10.0\Themes"/>
+    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.pri" target="lib\uap10.0"/>
+    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.xr" target="lib\uap10.0"/>
+    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.pri" target="lib\uap10.0"/>
+    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.xr" target="lib\uap10.0"/>
+    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.pri" target="lib\uap10.0"/>
+    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.xr" target="lib\uap10.0"/>
+    <file src="..\bin\Release\ModernUI.Charts.UWP.dll" target="ref\uap10.0" />
+    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.dll" target="runtimes\win10-arm\lib\uap10.0" />
+    <file src="..\bin\ARM\Release\ModernUI.Charts.UWP.pdb" target="runtimes\win10-arm\lib\uap10.0" />
+    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.dll" target="runtimes\win10-x86\lib\uap10.0" />
+    <file src="..\bin\x86\Release\ModernUI.Charts.UWP.pdb" target="runtimes\win10-x86\lib\uap10.0" />
+    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.dll" target="runtimes\win10-x64\lib\uap10.0" />
+    <file src="..\bin\x64\Release\ModernUI.Charts.UWP.pdb" target="runtimes\win10-x64\lib\uap10.0" />
+  </files>
+</package>

@@ -370,7 +370,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\ModernUI.Charts.UWP.dll">
+    <AppxPackagedFile Include="D:\ModernUIChart\ModernUI.Charts.UWP\bin\Debug\ModernUI.Charts.UWP.dll">
       <PackagePath>ModernUI.Charts.UWP.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
@@ -409,7 +409,7 @@
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\ModernUIChart.UWP.xr.xml">
       <PackagePath>ModernUIChart.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\ModernUI.Charts.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\ModernUIChart\ModernUI.Charts.UWP\bin\Debug\ModernUI.Charts.UWP.xr.xml">
       <PackagePath>ModernUI.Charts.UWP\ModernUI.Charts.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\App.xbf">
@@ -421,7 +421,7 @@
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Theme\Generic.xbf">
       <PackagePath>Theme\Generic.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\bin\Debug\Themes\Generic.xbf">
+    <AppxPackagedFile Include="D:\ModernUIChart\ModernUI.Charts.UWP\bin\Debug\Themes\Generic.xbf">
       <PackagePath>ModernUI.Charts.UWP\Themes\Generic.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">

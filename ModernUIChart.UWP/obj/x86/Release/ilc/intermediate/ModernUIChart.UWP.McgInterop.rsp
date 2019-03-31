@@ -1,0 +1,44 @@
+ /debug:pdbonly
+ /nowarn:0436;0618;1668;1685;1701;1702
+ /debug+
+ /nostdlib+
+ /optimize+
+ /out:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop.dll"
+ /pdb:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop.pdb"
+ /platform:x86
+ /warnaserror+
+ /unsafe
+ /nologo
+ /target:library
+ /define:MCG_PRE_BUILD
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private\System.Private.CoreLib.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private\System.Private.CoreLib.InteropServices.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private\System.Private.Interop.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Private.Uri.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private\System.Private.CompilerServices.ICastable.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private\System.Private.Reflection.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private\System.Private.DispatchProxy.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Reflection.DispatchProxy.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Reflection.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Runtime.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Runtime.InteropServices.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Numerics.Vectors.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Threading.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Diagnostics.Debug.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Dynamic.Runtime.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.5\tools\x86\ilc\lib\Private\System.Private.CoreLib.Augments.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Runtime.Extensions.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.Collections.dll"
+ /r:"D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\in\System.ObjectModel.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x86\1.7.2\tools\SharedLibrary\ret\AnalysisILToc\System.Private.SharedLibrary.Interop.Generated.iltoc"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\Adapters.g.cs"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\AssemblyInfo.g.cs"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\Data.g.cs"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\Helpers.g.cs"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\ImplTypes.g.cs"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\PInvoke.g.cs"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\SafeTypes.g.cs"
+ "D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Release\ilc\intermediate\ModernUIChart.UWP.McgInterop\SharedStubs.g.cs"

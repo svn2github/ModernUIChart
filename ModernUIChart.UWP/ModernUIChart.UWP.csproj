@@ -162,7 +162,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\De.TorstenMandelkow.MetroChart.WinRT\ModernUI.Charts.UWP.csproj">
+    <ProjectReference Include="..\ModernUI.Charts.UWP\ModernUI.Charts.UWP.csproj">
       <Project>{91f912af-424b-4d39-a245-db3c61384041}</Project>
       <Name>ModernUI.Charts.UWP</Name>
     </ProjectReference>
