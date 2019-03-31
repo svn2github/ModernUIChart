@@ -10,51 +10,52 @@
 
     <Grid x:Name="maingrid" Background="{StaticResource BackgroundBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="120"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Border Grid.Column="0">
-                <Button    
-                            Command="{Binding Path=GoBackCommand}"
-                            VerticalAlignment="Bottom"
-                            Style="{StaticResource BackButtonStyle}"                                
-                            Content="&#xE112;" 
-                            ToolTipService.ToolTip="Back" >
-                </Button>
-            </Border>
             <Border Grid.Column="1">
-                <TextBlock VerticalAlignment="Bottom" x:Name="pageTitle" Text="Metro Charts" Style="{StaticResource PageHeaderTextStyle}" Grid.Column="1"/>
+                <TextBlock
+                    x:Name="pageTitle"
+                    Grid.Column="1"
+                    VerticalAlignment="Bottom"
+                    Style="{StaticResource PageHeaderTextStyle}"
+                    Text="Modern UI Charts" />
             </Border>
         </Grid>
-        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto" Padding="120 20 20 20">
+        <ScrollViewer
+            Grid.Row="1"
+            Padding="120,20,20,20"
+            HorizontalScrollBarVisibility="Auto"
+            VerticalScrollBarVisibility="Disabled">
             <StackPanel Orientation="Horizontal">
-                <StackPanel Width="350" Margin="0 0 10 0">
-                    <TextBlock Text="Test Data" Style="{StaticResource SectionHeaderTextStyle}" />
-                    <StackPanel  Background="White">
-                        <ItemsControl Margin="10"
+                <StackPanel Width="350" Margin="0,0,10,0">
+                    <TextBlock Style="{StaticResource SectionHeaderTextStyle}" Text="Test Data" />
+                    <StackPanel Background="White">
+                        <ItemsControl
                             x:Name="parentList"
-                            VerticalAlignment="Stretch"
+                            Margin="10"
                             HorizontalAlignment="Stretch"
-                            VerticalContentAlignment="Stretch"
+                            VerticalAlignment="Stretch"
                             HorizontalContentAlignment="Stretch"
+                            VerticalContentAlignment="Stretch"
                             ItemsSource="{Binding Path=Series}"
-                            Tag="{Binding Path=SelectedItem, Mode=TwoWay}" >
+                            Tag="{Binding Path=SelectedItem, Mode=TwoWay}">
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel Width="330">
-                                        <TextBlock Text="{Binding Path=DisplayName}" Style="{StaticResource SeriesHeader}" />
-                                        <ListBox 
-                                            VerticalAlignment="Stretch"
+                                        <TextBlock Style="{StaticResource SeriesHeader}" Text="{Binding Path=DisplayName}" />
+                                        <ListBox
                                             HorizontalAlignment="Stretch"
-                                            VerticalContentAlignment="Stretch"
+                                            VerticalAlignment="Stretch"
                                             HorizontalContentAlignment="Stretch"
+                                            VerticalContentAlignment="Stretch"
                                             ItemContainerStyle="{StaticResource ListBoxItemStyle}"
-                                            ItemsSource="{Binding Path=Items}" 
+                                            ItemsSource="{Binding Path=Items}"
                                             SelectedItem="{Binding Path=Tag, Mode=TwoWay, ElementName=parentList}">
                                             <ListBox.ItemTemplate>
                                                 <DataTemplate>
@@ -64,7 +65,14 @@
                                                             <ColumnDefinition Width="*" />
                                                         </Grid.ColumnDefinitions>
                                                         <TextBlock Grid.Column="0" Text="{Binding Path=Category}" />
-                                                        <TextBox Width="50" Background="White" Margin="0 0 0 0" BorderBrush="DarkGray" Grid.Column="1" HorizontalAlignment="Right" Text="{Binding Path=Number, Mode=TwoWay}" />
+                                                        <TextBox
+                                                            Grid.Column="1"
+                                                            Width="50"
+                                                            Margin="0,0,0,0"
+                                                            HorizontalAlignment="Right"
+                                                            Background="White"
+                                                            BorderBrush="DarkGray"
+                                                            Text="{Binding Path=Number, Mode=TwoWay}" />
                                                     </Grid>
                                                 </DataTemplate>
                                             </ListBox.ItemTemplate>
@@ -77,7 +85,7 @@
                 </StackPanel>
 
                 <StackPanel MinWidth="350">
-                    <TextBlock Text="Column Chart" Style="{StaticResource SectionHeaderTextStyle}" />
+                    <TextBlock Style="{StaticResource SectionHeaderTextStyle}" Text="Column Chart" />
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto" />
@@ -88,81 +96,79 @@
                             <RowDefinition Height="auto" />
                         </Grid.RowDefinitions>
 
-                        <chart:ClusteredColumnChart                                
-                                Grid.Column="0"
-                                Grid.Row="0"
-                                Style="{StaticResource ChartStyle}"
-                                ChartTitle="Column Chart"
-                                ChartSubTitle="Which types of errors and warnings appears most"                  
-                                Palette="{StaticResource CustomPalette}"
-                                SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
-                                SeriesSource="{Binding Series}">
+                        <chart:ClusteredColumnChart
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            ChartSubTitle="Which types of errors and warnings appears most"
+                            ChartTitle="Column Chart"
+                            Palette="{StaticResource CustomPalette}"
+                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                            SeriesSource="{Binding Series}"
+                            Style="{StaticResource ChartStyle}">
                             <chart:ClusteredColumnChart.SeriesTemplate>
                                 <DataTemplate>
                                     <chart:ChartSeries
-                                         
-                                     
-			                                SeriesTitle="{Binding Path=DisplayName}"
-                                            DisplayMember="Category"
-                                            ValueMember="Number"
-                                            ItemsSource="{Binding Path=Items}" />
+                                        DisplayMember="Category"
+                                        ItemsSource="{Binding Path=Items}"
+                                        SeriesTitle="{Binding Path=DisplayName}"
+                                        ValueMember="Number" />
                                 </DataTemplate>
                             </chart:ClusteredColumnChart.SeriesTemplate>
                         </chart:ClusteredColumnChart>
                         <chart:StackedColumnChart
-                                Grid.Column="1"
-                                Grid.Row="0"
-                                Style="{StaticResource ChartStyle}"
-                                ChartTitle="Stacked Column Chart"
-                                ChartSubTitle="Which types of errors and warnings appears most"                  
-                                SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
-                                SeriesSource="{Binding Series}">
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            ChartSubTitle="Which types of errors and warnings appears most"
+                            ChartTitle="Stacked Column Chart"
+                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                            SeriesSource="{Binding Series}"
+                            Style="{StaticResource ChartStyle}">
                             <chart:StackedColumnChart.SeriesTemplate>
                                 <DataTemplate>
                                     <chart:ChartSeries
-			                                SeriesTitle="{Binding Path=DisplayName}"
-                                            DisplayMember="Category"
-                                            ValueMember="Number"
-                                            ItemsSource="{Binding Path=Items}" />
+                                        DisplayMember="Category"
+                                        ItemsSource="{Binding Path=Items}"
+                                        SeriesTitle="{Binding Path=DisplayName}"
+                                        ValueMember="Number" />
                                 </DataTemplate>
                             </chart:StackedColumnChart.SeriesTemplate>
                         </chart:StackedColumnChart>
                         <chart:StackedColumn100Chart
-                                Grid.Column="0"
-                                Grid.Row="1"
-                                Style="{StaticResource ChartStyle}"
-                                ChartTitle="100% Stacked Column"
-                                ChartSubTitle="Which types of errors and warnings appears most"                  
-                                SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
-                                SeriesSource="{Binding Series}">
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            ChartSubTitle="Which types of errors and warnings appears most"
+                            ChartTitle="100% Stacked Column"
+                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                            SeriesSource="{Binding Series}"
+                            Style="{StaticResource ChartStyle}">
                             <chart:StackedColumn100Chart.SeriesTemplate>
                                 <DataTemplate>
                                     <chart:ChartSeries
-			                                SeriesTitle="{Binding Path=DisplayName}"
-                                            DisplayMember="Category"
-                                            ValueMember="Number"
-                                            ItemsSource="{Binding Path=Items}" />
+                                        DisplayMember="Category"
+                                        ItemsSource="{Binding Path=Items}"
+                                        SeriesTitle="{Binding Path=DisplayName}"
+                                        ValueMember="Number" />
                                 </DataTemplate>
                             </chart:StackedColumn100Chart.SeriesTemplate>
                         </chart:StackedColumn100Chart>
-                        <chart:ClusteredColumnChart                                
-                                Grid.Column="1"
-                                Grid.Row="1"
-                                Style="{StaticResource ChartStyle}"
-                                ChartTitle="Column Chart with fixed series"
-                                ChartSubTitle="Which types of errors and warnings appears most"                  
-                                SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}">
+                        <chart:ClusteredColumnChart
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            ChartSubTitle="Which types of errors and warnings appears most"
+                            ChartTitle="Column Chart with fixed series"
+                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                            Style="{StaticResource ChartStyle}">
                             <chart:ClusteredColumnChart.Series>
                                 <chart:ChartSeries
-                                        SeriesTitle="Errors"
-                                        DisplayMember="Category"
-                                        ValueMember="Number"
-                                        ItemsSource="{Binding Path=Errors}" />
+                                    DisplayMember="Category"
+                                    ItemsSource="{Binding Path=Errors}"
+                                    SeriesTitle="Errors"
+                                    ValueMember="Number" />
                                 <chart:ChartSeries
-                                        SeriesTitle="Warnings"
-                                        DisplayMember="Category"
-                                        ValueMember="Number"
-                                        ItemsSource="{Binding Path=Warnings}" />
+                                    DisplayMember="Category"
+                                    ItemsSource="{Binding Path=Warnings}"
+                                    SeriesTitle="Warnings"
+                                    ValueMember="Number" />
                             </chart:ClusteredColumnChart.Series>
                         </chart:ClusteredColumnChart>
                     </Grid>
@@ -170,25 +176,24 @@
                 </StackPanel>
 
                 <StackPanel MinWidth="350">
-                    <TextBlock Text="Pie Chart" Style="{StaticResource SectionHeaderTextStyle}" />
-                    <chart:PieChart                     
-                            Style="{StaticResource ChartStyle}"
-                            ChartTitle="Pie Chart"
-                            ChartSubTitle="Which types of warnings appears most"
-                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}" >
+                    <TextBlock Style="{StaticResource SectionHeaderTextStyle}" Text="Pie Chart" />
+                    <chart:PieChart
+                        ChartSubTitle="Which types of warnings appears most"
+                        ChartTitle="Pie Chart"
+                        SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                        Style="{StaticResource ChartStyle}">
                         <chart:PieChart.Series>
                             <chart:ChartSeries
-                                    SeriesTitle="Errors"
-                                    DisplayMember="Category"
-                                    ValueMember="Number"
-                                    ItemsSource="{Binding Path=Errors}">
-                            </chart:ChartSeries>
+                                DisplayMember="Category"
+                                ItemsSource="{Binding Path=Errors}"
+                                SeriesTitle="Errors"
+                                ValueMember="Number" />
                         </chart:PieChart.Series>
                     </chart:PieChart>
                 </StackPanel>
 
                 <StackPanel MinWidth="350">
-                    <TextBlock Text="Bar Chart" Style="{StaticResource SectionHeaderTextStyle}" />
+                    <TextBlock Style="{StaticResource SectionHeaderTextStyle}" Text="Bar Chart" />
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="auto" />
@@ -199,57 +204,57 @@
                             <RowDefinition Height="auto" />
                         </Grid.RowDefinitions>
 
-                        <chart:ClusteredBarChart                                
-                                Grid.Column="0"
-                                Grid.Row="0"
-                                Style="{StaticResource ChartStyle}"
-                                ChartTitle="Bar Chart"
-                                ChartSubTitle="Which types of errors and warnings appears most"                  
-                                SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"                                
-                                SeriesSource="{Binding Series}">
+                        <chart:ClusteredBarChart
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            ChartSubTitle="Which types of errors and warnings appears most"
+                            ChartTitle="Bar Chart"
+                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                            SeriesSource="{Binding Series}"
+                            Style="{StaticResource ChartStyle}">
                             <chart:ClusteredBarChart.SeriesTemplate>
                                 <DataTemplate>
                                     <chart:ChartSeries
-			                                SeriesTitle="{Binding Path=DisplayName}"
-                                            DisplayMember="Category"
-                                            ValueMember="Number"
-                                            ItemsSource="{Binding Path=Items}" />
+                                        DisplayMember="Category"
+                                        ItemsSource="{Binding Path=Items}"
+                                        SeriesTitle="{Binding Path=DisplayName}"
+                                        ValueMember="Number" />
                                 </DataTemplate>
                             </chart:ClusteredBarChart.SeriesTemplate>
                         </chart:ClusteredBarChart>
                         <chart:StackedBarChart
-                                Grid.Column="1"
-                                Grid.Row="0"
-                                Style="{StaticResource ChartStyle}"
-                                ChartTitle="Stacked Bar Chart"
-                                ChartSubTitle="Which types of errors and warnings appears most"                  
-                                SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
-                                SeriesSource="{Binding Series}">
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            ChartSubTitle="Which types of errors and warnings appears most"
+                            ChartTitle="Stacked Bar Chart"
+                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                            SeriesSource="{Binding Series}"
+                            Style="{StaticResource ChartStyle}">
                             <chart:StackedBarChart.SeriesTemplate>
                                 <DataTemplate>
                                     <chart:ChartSeries
-			                                SeriesTitle="{Binding Path=DisplayName}"
-                                            DisplayMember="Category"
-                                            ValueMember="Number"
-                                            ItemsSource="{Binding Path=Items}" />
+                                        DisplayMember="Category"
+                                        ItemsSource="{Binding Path=Items}"
+                                        SeriesTitle="{Binding Path=DisplayName}"
+                                        ValueMember="Number" />
                                 </DataTemplate>
                             </chart:StackedBarChart.SeriesTemplate>
                         </chart:StackedBarChart>
                         <chart:StackedBar100Chart
-                                Grid.Column="0"
-                                Grid.Row="1"
-                                Style="{StaticResource ChartStyle}"
-                                ChartTitle="100% Stacked Bar"
-                                ChartSubTitle="Which types of errors and warnings appears most"                  
-                                SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
-                                SeriesSource="{Binding Series}">
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            ChartSubTitle="Which types of errors and warnings appears most"
+                            ChartTitle="100% Stacked Bar"
+                            SelectedItem="{Binding Path=SelectedItem, Mode=TwoWay}"
+                            SeriesSource="{Binding Series}"
+                            Style="{StaticResource ChartStyle}">
                             <chart:StackedBar100Chart.SeriesTemplate>
                                 <DataTemplate>
                                     <chart:ChartSeries
-			                                SeriesTitle="{Binding Path=DisplayName}"
-                                            DisplayMember="Category"
-                                            ValueMember="Number"
-                                            ItemsSource="{Binding Path=Items}" />
+                                        DisplayMember="Category"
+                                        ItemsSource="{Binding Path=Items}"
+                                        SeriesTitle="{Binding Path=DisplayName}"
+                                        ValueMember="Number" />
                                 </DataTemplate>
                             </chart:StackedBar100Chart.SeriesTemplate>
                         </chart:StackedBar100Chart>

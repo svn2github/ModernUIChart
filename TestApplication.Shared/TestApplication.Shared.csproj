@@ -53,12 +53,6 @@
       <SubType>Designer</SubType>
     </CodeAnalysisDictionary>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\De.TorstenMandelkow.MetroChart.WPF\De.TorstenMandelkow.MetroChart.WPF.csproj">
-      <Project>{4ab4b0db-780c-48b9-a642-8e527353d957}</Project>
-      <Name>De.TorstenMandelkow.MetroChart.WPF</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
