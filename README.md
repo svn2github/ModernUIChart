@@ -31,6 +31,11 @@ This project provides a small library to display charts in **Modern UI Style** f
 
 ![enter image description here](https://lh3.googleusercontent.com/5yu-ezTisEdoYwpiQWrFa--6SLdox_IA9sq93i4d89bh2knaMIk00uZ8zYr0WpOSX_dld96ZXIDp)
 
+Nuget Package ready for download.
+
+[# ModernUI.Charts.UWP Nuget Package](https://www.nuget.org/packages/ModernUI.Charts.UWP/)
+
+
 # Roadmap
  - **Nuget Package support**
  - Fixing existing Bugs
@@ -43,6 +48,6 @@ This project provides a small library to display charts in **Modern UI Style** f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjQ5MDQzNSwxNDcyMDEwMjg3LDUxMj
-U0MTEzNSwtNDcxODE4OTVdfQ==
+eyJoaXN0b3J5IjpbMjI2NzEyMTI0LC0yNzY0OTA0MzUsMTQ3Mj
+AxMDI4Nyw1MTI1NDExMzUsLTQ3MTgxODk1XX0=
 -->
