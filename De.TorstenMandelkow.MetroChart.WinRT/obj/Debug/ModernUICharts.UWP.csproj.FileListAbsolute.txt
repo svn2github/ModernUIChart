@@ -1,0 +1,4 @@
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\XamlTypeInfo.g.cs
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\Themes\Generic.xaml
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\Themes\Generic.xbf
+D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Debug\XamlSaveStateFile.xml

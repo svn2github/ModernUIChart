@@ -4,7 +4,7 @@ using System.Windows;
 using System.Reflection;
 using System.Linq;
 
-namespace De.TorstenMandelkow.MetroChart
+namespace ModernUICharts
 {
     public static class Extensions
     {

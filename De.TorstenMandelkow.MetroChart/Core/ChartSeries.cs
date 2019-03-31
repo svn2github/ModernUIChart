@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-namespace De.TorstenMandelkow.MetroChart
+namespace ModernUICharts
 {
     using System.Collections.Generic;
     using System.Collections.ObjectModel;

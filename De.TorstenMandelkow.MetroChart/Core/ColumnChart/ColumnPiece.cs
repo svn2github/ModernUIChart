@@ -1,4 +1,4 @@
-﻿namespace De.TorstenMandelkow.MetroChart
+﻿namespace ModernUICharts
 {
     using System;
     using System.Collections;

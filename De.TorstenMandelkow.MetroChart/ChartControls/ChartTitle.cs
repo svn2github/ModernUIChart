@@ -17,7 +17,7 @@ using System.Windows.Media.Animation;
 
 #endif
 
-namespace De.TorstenMandelkow.MetroChart
+namespace ModernUICharts
 {
     public class ChartTitle : ContentControl
     {        

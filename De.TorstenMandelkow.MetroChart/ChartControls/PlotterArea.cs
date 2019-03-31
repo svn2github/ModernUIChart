@@ -19,7 +19,7 @@ using System.Windows.Media;
 
 #endif
 
-namespace De.TorstenMandelkow.MetroChart
+namespace ModernUICharts
 {
     public class PlotterArea : ContentControl
     {

@@ -36,9 +36,9 @@
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.DoubleToGridLengthPercent" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.BooleanToVisibilityConverter" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ResourceDictionaryCollection" />
+    <RootType FullName="ModernUICharts.DoubleToGridLengthPercent" />
+    <RootType FullName="ModernUICharts.BooleanToVisibilityConverter" />
+    <RootType FullName="ModernUICharts.ResourceDictionaryCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
     </RootType>
@@ -67,7 +67,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartTitle">
+    <RootType FullName="ModernUICharts.ChartTitle">
       <RootProperty Name="Title" />
       <RootProperty Name="Style" />
       <RootProperty Name="SubTitle" />
@@ -85,13 +85,13 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="FontFamily" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.MinimalWidthTextBlock">
+    <RootType FullName="ModernUICharts.MinimalWidthTextBlock">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextBlockStyle" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.AutoSizeTextBlock">
+    <RootType FullName="ModernUICharts.AutoSizeTextBlock">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Text" />
@@ -99,13 +99,13 @@
       <RootProperty Name="Visibility" />
       <RootProperty Name="Foreground" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartLegendItem">
+    <RootType FullName="ModernUICharts.ChartLegendItem">
       <RootProperty Name="Caption" />
       <RootProperty Name="ItemBrush" />
       <RootProperty Name="Style" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.PiePieceLabel" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.FadingListView">
+    <RootType FullName="ModernUICharts.PiePieceLabel" />
+    <RootType FullName="ModernUICharts.FadingListView">
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemsPanel" />
@@ -115,7 +115,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ColumnPiece">
+    <RootType FullName="ModernUICharts.ColumnPiece">
       <RootProperty Name="Background" />
       <RootProperty Name="ClientHeight" />
       <RootProperty Name="ClientWidth" />
@@ -125,34 +125,34 @@
       <RootProperty Name="Style" />
       <RootProperty Name="SelectedBrush" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartBase">
+    <RootType FullName="ModernUICharts.ChartBase">
       <RootProperty Name="DefaultPalette" />
       <RootProperty Name="ChartLegendItemStyle" />
       <RootProperty Name="ChartAreaStyle" />
       <RootProperty Name="PlotterAreaStyle" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.Legend">
+    <RootType FullName="ModernUICharts.Legend">
       <RootProperty Name="ChartLegendItemStyle" />
       <RootProperty Name="ItemsSource" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.PlotterArea">
+    <RootType FullName="ModernUICharts.PlotterArea">
       <RootProperty Name="DataPointItemTemplate" />
       <RootProperty Name="ChartLegendItemStyle" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="ParentChart" />
       <RootProperty Name="Style" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ChartArea">
+    <RootType FullName="ModernUICharts.ChartArea">
       <RootProperty Name="ChartLegendItemStyle" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="ParentChart" />
       <RootProperty Name="Style" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ClusteredColumnChart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedColumnChart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedColumn100Chart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.BarPiece">
+    <RootType FullName="ModernUICharts.ClusteredColumnChart" />
+    <RootType FullName="ModernUICharts.StackedColumnChart" />
+    <RootType FullName="ModernUICharts.StackedColumn100Chart" />
+    <RootType FullName="ModernUICharts.BarPiece">
       <RootProperty Name="Background" />
       <RootProperty Name="ClientHeight" />
       <RootProperty Name="ClientWidth" />
@@ -162,12 +162,12 @@
       <RootProperty Name="Style" />
       <RootProperty Name="SelectedBrush" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.PieChart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.RadialGaugeChart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ClusteredBarChart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedBarChart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedBar100Chart" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.PiePiece">
+    <RootType FullName="ModernUICharts.PieChart" />
+    <RootType FullName="ModernUICharts.RadialGaugeChart" />
+    <RootType FullName="ModernUICharts.ClusteredBarChart" />
+    <RootType FullName="ModernUICharts.StackedBarChart" />
+    <RootType FullName="ModernUICharts.StackedBar100Chart" />
+    <RootType FullName="ModernUICharts.PiePiece">
       <RootProperty Name="Background" />
       <RootProperty Name="ClientHeight" />
       <RootProperty Name="ClientWidth" />
@@ -180,7 +180,7 @@
       <RootProperty Name="SumOfDataSeries" />
       <RootProperty Name="Value" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.RadialGaugePiece">
+    <RootType FullName="ModernUICharts.RadialGaugePiece">
       <RootProperty Name="Margin" />
       <RootProperty Name="Background" />
       <RootProperty Name="ClientHeight" />
@@ -302,8 +302,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
       <RootProperty Name="Template" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.RowSeriesPanel" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.EvenlyDistributedRowGrid">
+    <RootType FullName="ModernUICharts.RowSeriesPanel" />
+    <RootType FullName="ModernUICharts.EvenlyDistributedRowGrid">
       <RootProperty Name="Margin" />
       <RootProperty Name="IsReverseOrder" />
     </RootType>
@@ -320,23 +320,23 @@
       <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.EvenlyDistributedColumnsGrid">
+    <RootType FullName="ModernUICharts.EvenlyDistributedColumnsGrid">
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform">
       <RootProperty Name="X" />
       <RootProperty Name="Y" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.UniformGridPanel">
+    <RootType FullName="ModernUICharts.UniformGridPanel">
       <RootProperty Name="MinimalGridWidth" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="DataContext" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.StackedColumnsPanel" />
-    <RootType FullName="De.TorstenMandelkow.MetroChart.ColumnSeriesPanel">
+    <RootType FullName="ModernUICharts.StackedColumnsPanel" />
+    <RootType FullName="ModernUICharts.ColumnSeriesPanel">
       <RootProperty Name="Margin" />
     </RootType>
-    <RootType FullName="De.TorstenMandelkow.MetroChart.CustomWrapPanel">
+    <RootType FullName="ModernUICharts.CustomWrapPanel">
       <RootProperty Name="Orientation" />
     </RootType>
   </Roots.RootTypes>
