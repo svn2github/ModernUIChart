@@ -330,23 +330,6 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package",
-        "runtimeTargets": {
-          "runtimes/win10-arm/lib/uap10.0/ModernUI.Charts.UWP.dll": {
-            "assetType": "runtime",
-            "rid": "win10-arm"
-          },
-          "runtimes/win10-x64/lib/uap10.0/ModernUI.Charts.UWP.dll": {
-            "assetType": "runtime",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x86/lib/uap10.0/ModernUI.Charts.UWP.dll": {
-            "assetType": "runtime",
-            "rid": "win10-x86"
-          }
-        }
-      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2521,12 +2504,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-arm/lib/uap10.0/ModernUI.Charts.UWP.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -4829,12 +4806,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-arm/lib/uap10.0/ModernUI.Charts.UWP.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -7171,9 +7142,6 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package"
-      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -9113,12 +9081,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-x64/lib/uap10.0/ModernUI.Charts.UWP.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -11430,12 +11392,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-x64/lib/uap10.0/ModernUI.Charts.UWP.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -13783,12 +13739,6 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-x86/lib/uap10.0/ModernUI.Charts.UWP.dll": {}
-        }
-      },
       "runtime.any.System.Collections/4.0.11": {
         "type": "package",
         "dependencies": {
@@ -16098,12 +16048,6 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
-        }
-      },
-      "ModernUI.Charts.UWP/1.0.0": {
-        "type": "package",
-        "runtime": {
-          "runtimes/win10-x86/lib/uap10.0/ModernUI.Charts.UWP.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -20868,32 +20812,6 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
-      ]
-    },
-    "ModernUI.Charts.UWP/1.0.0": {
-      "sha512": "6MZk+D4bINsSRhU0rN9w3s6ARetH3GIdBsSEDkYW1w1WwxnftvgGv6MQK90hv2NnkFhy0mtQzguyUIMztnP71w==",
-      "type": "package",
-      "path": "modernui.charts.uwp/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "modernui.charts.uwp.1.0.0.nupkg.sha512",
-        "modernui.charts.uwp.nuspec",
-        "runtimes/win10-arm/lib/uap10.0/ModernUI.Charts.UWP.dll",
-        "runtimes/win10-arm/lib/uap10.0/ModernUI.Charts.UWP.pdb",
-        "runtimes/win10-arm/lib/uap10.0/ModernUI.Charts.UWP.pri",
-        "runtimes/win10-arm/lib/uap10.0/ModernUI.Charts.UWP.xr.xml",
-        "runtimes/win10-arm/lib/uap10.0/Themes/Generic.xbf",
-        "runtimes/win10-x64/lib/uap10.0/ModernUI.Charts.UWP.dll",
-        "runtimes/win10-x64/lib/uap10.0/ModernUI.Charts.UWP.pdb",
-        "runtimes/win10-x64/lib/uap10.0/ModernUI.Charts.UWP.pri",
-        "runtimes/win10-x64/lib/uap10.0/ModernUI.Charts.UWP.xr.xml",
-        "runtimes/win10-x64/lib/uap10.0/Themes/Generic.xbf",
-        "runtimes/win10-x86/lib/uap10.0/ModernUI.Charts.UWP.dll",
-        "runtimes/win10-x86/lib/uap10.0/ModernUI.Charts.UWP.pdb",
-        "runtimes/win10-x86/lib/uap10.0/ModernUI.Charts.UWP.pri",
-        "runtimes/win10-x86/lib/uap10.0/ModernUI.Charts.UWP.xr.xml",
-        "runtimes/win10-x86/lib/uap10.0/Themes/Generic.xbf"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -28047,8 +27965,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.7",
-      "ModernUI.Charts.UWP >= 1.0.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.7"
     ]
   },
   "packageFolders": {
@@ -28077,6 +27994,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\ModernUIChart": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -28091,10 +28009,6 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.7, )"
-          },
-          "ModernUI.Charts.UWP": {
-            "target": "Package",
-            "version": "[1.0.0, )"
           }
         }
       }

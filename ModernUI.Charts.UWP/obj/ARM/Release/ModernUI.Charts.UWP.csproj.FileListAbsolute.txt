@@ -3,7 +3,6 @@ D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.xr.xml
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.dll
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.pdb
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.pri
-D:\ModernUIChart\ModernUI.Charts.UWP\bin\ARM\Release\ModernUI.Charts.UWP.cs
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\ModernUI.Charts.UWP.csprojAssemblyReference.cache
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\XamlTypeInfo.g.cs
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\ARM\Release\Themes\Generic.xaml

@@ -28,7 +28,6 @@ D:\ModernUIChart\De.TorstenMandelkow.MetroChart.WinRT\obj\Release\MultipleQualif
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\Release\ModernUI.Charts.UWP.dll
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\Release\ModernUI.Charts.UWP.pdb
 D:\ModernUIChart\ModernUI.Charts.UWP\bin\Release\ModernUI.Charts.UWP.pri
-D:\ModernUIChart\ModernUI.Charts.UWP\bin\Release\ModernUI.Charts.UWP.cs
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\XamlTypeInfo.g.cs
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\Themes\Generic.xaml
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\Themes\Generic.xbf
@@ -51,3 +50,4 @@ D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\pri.resfiles.intermediate
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\qualifiers.txt
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\qualifiers.txt.intermediate
 D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\MultipleQualifiersPerDimensionFound.txt
+D:\ModernUIChart\ModernUI.Charts.UWP\obj\Release\ModernUI.Charts.UWP.csprojAssemblyReference.cache
