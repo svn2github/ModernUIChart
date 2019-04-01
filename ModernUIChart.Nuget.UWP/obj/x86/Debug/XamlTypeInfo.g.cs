@@ -8,22 +8,22 @@
 //------------------------------------------------------------------------------
 
 
-namespace ModernUIChart.UWP
+namespace ModernUIChart.Nuget.UWP
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
-        private global::ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::ModernUIChart.Nuget.UWP.ModernUIChart_Nuget_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::ModernUIChart.Nuget.UWP.ModernUIChart_Nuget_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::ModernUIChart.Nuget.UWP.ModernUIChart_Nuget_UWP_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace ModernUIChart.UWP
     }
 }
 
-namespace ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo
+namespace ModernUIChart.Nuget.UWP.ModernUIChart_Nuget_UWP_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::ModernUIChart.Nuget.UWP.ModernUIChart_Nuget_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::ModernUIChart.Nuget.UWP.ModernUIChart_Nuget_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::ModernUIChart.UWP.ModernUIChart_UWP_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::ModernUIChart.Nuget.UWP.ModernUIChart_Nuget_UWP_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

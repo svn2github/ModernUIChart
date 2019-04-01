@@ -1,0 +1,1 @@
+D:\ModernUIChart\ModernUIChart.Nuget.UWP\ModernUIChart.Nuget.UWP.csproj;x86

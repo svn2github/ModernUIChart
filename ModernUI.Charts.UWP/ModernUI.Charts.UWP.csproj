@@ -230,11 +230,8 @@
     <EmbeddedResource Include="Properties\De.TorstenMandelkow.MetroChart.WinRT.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.BuildTools.GenAPI">
-      <Version>1.0.0-beta-00081</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>5.3.3</Version>
+      <Version>6.1.12</Version>
     </PackageReference>
     <PackageReference Include="System.Collections.NonGeneric">
       <Version>4.3.0</Version>

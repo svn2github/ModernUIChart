@@ -1,4 +1,3 @@
-D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\ModernUIChart.UWP.csprojAssemblyReference.cache
 D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\App.g.i.cs
 D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\App.g.cs
 D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\MainPage.g.i.cs
@@ -140,6 +139,7 @@ D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
 D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\ModernUI.Charts.UWP.dll
 D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\ModernUI.Charts.UWP.pdb
 D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\ModernUI.Charts.UWP.pri
+D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\ModernUIChart.UWP.csprojAssemblyReference.cache
 D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\ModernUIChart.UWP.csproj.CoreCompileInputs.cache
 D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\ModernUIChart.UWP.csproj.CopyComplete
 D:\ModernUIChart\ModernUIChart.UWP\obj\x86\Debug\ModernUIChart.UWP.exe
