@@ -36,7 +36,7 @@ SET /P  ApiKey= Enter the Api Key
 @echo.
 
 
-@ D:\nuget.exe push ModernUI.Charts.UWP.1.0.1.nupkg %ApiKey% -Source https://api.nuget.org/v3/index.json
+@ D:\nuget.exe push ModernUI.Charts.UWP.1.0.2.nupkg %ApiKey% -Source https://api.nuget.org/v3/index.json
 
 :END
 endlocal
