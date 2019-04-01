@@ -239,7 +239,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -283,6 +283,10 @@
         },
         "compile": {
           "ref/netcore50/_._": {}
+        },
+        "build": {
+          "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
+          "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
@@ -2409,7 +2413,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -2449,11 +2453,15 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.12",
+          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
+        },
+        "build": {
+          "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
+          "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
@@ -2794,7 +2802,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -4708,7 +4716,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -4748,11 +4756,15 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.12",
+          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
+        },
+        "build": {
+          "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
+          "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
@@ -5138,7 +5150,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -7044,7 +7056,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -7084,11 +7096,15 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.12",
+          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
+        },
+        "build": {
+          "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
+          "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
@@ -7429,7 +7445,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -9352,7 +9368,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -9392,11 +9408,15 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.12",
+          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
+        },
+        "build": {
+          "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
+          "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
@@ -9782,7 +9802,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -11694,7 +11714,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -11734,11 +11754,15 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.12",
+          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
+        },
+        "build": {
+          "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
+          "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
@@ -12079,7 +12103,7 @@
           "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -14002,7 +14026,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore": "5.0.2",
@@ -14042,11 +14066,15 @@
           "System.Threading.Overlapped": "4.0.1",
           "System.Xml.XmlDocument": "4.0.1",
           "System.Xml.XmlSerializer": "4.0.11",
-          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.12",
+          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
           "runtime.win7.System.Private.Uri": "4.0.4"
         },
         "compile": {
           "ref/netcore50/_._": {}
+        },
+        "build": {
+          "build/Microsoft.NETCore.UniversalWindowsPlatform.props": {},
+          "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
@@ -14432,7 +14460,7 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
+      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -18474,16 +18502,18 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
-      "sha512": "rnRLzl3LIekagw3e208t8IUdB/lU474JmZCk+EriAfRU9JWygWplDFnZYIJK+wWSHsEv3mTTXtj+S/CGMoWdAA==",
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "xnpp1xvvIg9ggb2ZeMqA6WdS4iMrm+THrFa5dhVYRfFmjDeVAUVFoxEyYd4LYkJqEcdXADdm5tdfFLZvCGa/Qw==",
       "type": "package",
-      "path": "microsoft.netcore.universalwindowsplatform/6.1.12",
+      "path": "microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.universalwindowsplatform.6.1.12.nupkg.sha512",
+        "build/Microsoft.NETCore.UniversalWindowsPlatform.props",
+        "build/Microsoft.NetCore.UniversalWindowsPlatform.targets",
+        "microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "microsoft.netcore.universalwindowsplatform.nuspec",
         "ref/netcore50/_._",
         "ref/uap10.0.15138/Microsoft.CSharp.dll",
@@ -19684,17 +19714,17 @@
         "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll"
       ]
     },
-    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
-      "sha512": "qCdiFHnl4HtcTsfyH+bJdsUTQENBlloU7ADPB1gwR6hbJJFBmc3pBN7e/g0y1J+ndthtWk47r2ZWSUOBeK3ToQ==",
+    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "t5G7HnhujEwXQHgvsOaPZOjsn7kxPLL9fNoG92a5d7t/lufe7s9cRJiTkOT6C8XQFkB72FAFBfbLd6GYkvbK0g==",
       "type": "package",
-      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.1.12",
+      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.1.12.nupkg.sha512",
+        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -19744,6 +19774,7 @@
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.IO.FileSystem.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.IO.IsolatedStorage.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.IO.MemoryMappedFiles.dll",
+        "runtimes/win10-arm-aot/lib/uap10.0.15138/System.IO.Pipes.AccessControl.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.IO.Pipes.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.IO.Ports.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.IO.UnmanagedMemoryStream.dll",
@@ -19752,6 +19783,7 @@
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Linq.Parallel.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Linq.Queryable.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Linq.dll",
+        "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Memory.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Net.Http.Rtc.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Net.Http.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Net.HttpListener.dll",
@@ -19793,6 +19825,7 @@
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Resources.Reader.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Resources.ResourceManager.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Resources.Writer.dll",
+        "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Runtime.CompilerServices.Unsafe.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Runtime.CompilerServices.VisualC.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Runtime.Extensions.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Runtime.Handles.dll",
@@ -19816,6 +19849,7 @@
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Security.Cryptography.Encoding.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Security.Cryptography.Primitives.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Security.Permissions.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Security.Principal.Windows.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Security.Principal.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/System.Security.SecureString.dll",
@@ -19876,17 +19910,17 @@
         "runtimes/win10-arm-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
-      "sha512": "KHcd/jt3LwROEnY/aY0XYzaWys6zlFcgfl/xtsNLVmXyGI/X6ekAZ7BQfe+CkpZs5Pujbs1pA+Yb+fLXnyVE1w==",
+    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "1VrhpUmV/9HnhOSHXDTfNC1UXANDLkJK90/s2ra+GrkxnYkjH7NH6tQAl7i+WvrRoD3rrmiDm2mK4jORPcHwiQ==",
       "type": "package",
-      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.1.12",
+      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.1.12.nupkg.sha512",
+        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -19936,6 +19970,7 @@
         "runtimes/win10-arm/lib/uap10.0.15138/System.IO.FileSystem.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.IO.IsolatedStorage.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.IO.MemoryMappedFiles.dll",
+        "runtimes/win10-arm/lib/uap10.0.15138/System.IO.Pipes.AccessControl.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.IO.Pipes.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.IO.Ports.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.IO.UnmanagedMemoryStream.dll",
@@ -19944,6 +19979,7 @@
         "runtimes/win10-arm/lib/uap10.0.15138/System.Linq.Parallel.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Linq.Queryable.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Linq.dll",
+        "runtimes/win10-arm/lib/uap10.0.15138/System.Memory.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Net.Http.Rtc.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Net.Http.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Net.HttpListener.dll",
@@ -19984,6 +20020,7 @@
         "runtimes/win10-arm/lib/uap10.0.15138/System.Resources.Reader.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Resources.ResourceManager.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Resources.Writer.dll",
+        "runtimes/win10-arm/lib/uap10.0.15138/System.Runtime.CompilerServices.Unsafe.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Runtime.CompilerServices.VisualC.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Runtime.Extensions.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Runtime.Handles.dll",
@@ -20007,6 +20044,7 @@
         "runtimes/win10-arm/lib/uap10.0.15138/System.Security.Cryptography.Encoding.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Security.Cryptography.Primitives.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win10-arm/lib/uap10.0.15138/System.Security.Permissions.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Security.Principal.Windows.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Security.Principal.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/System.Security.SecureString.dll",
@@ -20054,17 +20092,17 @@
         "runtimes/win10-arm/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
-      "sha512": "SFrUCLhEdsfrBlNA1MyJQJ+Oz0WrlCmJrqve+FaP4VS15+8aIFqkvzjaiMbVaP0VsL5j8rNZJVGyo2SHOcJMRg==",
+    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "i3RTx5qFJObd1B9ta/tZ11Ak7kNiKjTZwO/C/SnAmr7K6YGug/yy7QG6ddpmKMtBZugC+5TJC4uB9UR/VuSS8g==",
       "type": "package",
-      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.1.12",
+      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.1.12.nupkg.sha512",
+        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20114,6 +20152,7 @@
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.IO.FileSystem.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.IO.IsolatedStorage.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.IO.MemoryMappedFiles.dll",
+        "runtimes/win10-x64-aot/lib/uap10.0.15138/System.IO.Pipes.AccessControl.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.IO.Pipes.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.IO.Ports.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.IO.UnmanagedMemoryStream.dll",
@@ -20122,6 +20161,7 @@
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Linq.Parallel.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Linq.Queryable.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Linq.dll",
+        "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Memory.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Net.Http.Rtc.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Net.Http.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Net.HttpListener.dll",
@@ -20163,6 +20203,7 @@
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Resources.Reader.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Resources.ResourceManager.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Resources.Writer.dll",
+        "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Runtime.CompilerServices.Unsafe.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Runtime.CompilerServices.VisualC.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Runtime.Extensions.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Runtime.Handles.dll",
@@ -20186,6 +20227,7 @@
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Security.Cryptography.Encoding.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Security.Cryptography.Primitives.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Security.Permissions.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Security.Principal.Windows.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Security.Principal.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/System.Security.SecureString.dll",
@@ -20246,17 +20288,17 @@
         "runtimes/win10-x64-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
-      "sha512": "v9OhtiOmfxb/U3voauVhc0PCdq0FHddEXp20p88rw2WjSvOZFIBxDDWcvda0DA7Ekh6wW91eRahTHi/0FuC8/Q==",
+    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "LPqMBOXKYrYJ6qnR1V21noZx95vKzOmSQMJIcZjY4R01DzMAmqvwsWvCxPjPTmEwpa0smEbzNYtwb1FJAHxBfA==",
       "type": "package",
-      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.1.12",
+      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.1.12.nupkg.sha512",
+        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20306,6 +20348,7 @@
         "runtimes/win10-x64/lib/uap10.0.15138/System.IO.FileSystem.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.IO.IsolatedStorage.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.IO.MemoryMappedFiles.dll",
+        "runtimes/win10-x64/lib/uap10.0.15138/System.IO.Pipes.AccessControl.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.IO.Pipes.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.IO.Ports.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.IO.UnmanagedMemoryStream.dll",
@@ -20314,6 +20357,7 @@
         "runtimes/win10-x64/lib/uap10.0.15138/System.Linq.Parallel.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Linq.Queryable.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Linq.dll",
+        "runtimes/win10-x64/lib/uap10.0.15138/System.Memory.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Net.Http.Rtc.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Net.Http.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Net.HttpListener.dll",
@@ -20354,6 +20398,7 @@
         "runtimes/win10-x64/lib/uap10.0.15138/System.Resources.Reader.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Resources.ResourceManager.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Resources.Writer.dll",
+        "runtimes/win10-x64/lib/uap10.0.15138/System.Runtime.CompilerServices.Unsafe.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Runtime.CompilerServices.VisualC.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Runtime.Extensions.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Runtime.Handles.dll",
@@ -20377,6 +20422,7 @@
         "runtimes/win10-x64/lib/uap10.0.15138/System.Security.Cryptography.Encoding.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Security.Cryptography.Primitives.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win10-x64/lib/uap10.0.15138/System.Security.Permissions.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Security.Principal.Windows.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Security.Principal.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/System.Security.SecureString.dll",
@@ -20424,17 +20470,17 @@
         "runtimes/win10-x64/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
-      "sha512": "7GoZM/WrLyRySjGbGJGhSjyPWvzS1iziHJ6wQBwywAbaPKYOq2bQYF+HsiRjrFX4XnBTdsCITGqQqMdEatyZ5A==",
+    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "9znHToJLlua8ROfPasIbNCzwcFWPLkb0Xa60O0p7LkUn/a97uPLtWUInEIN/JV9Cd6NWdhXRtnZ9kmJb5faa6A==",
       "type": "package",
-      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.1.12",
+      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.1.12.nupkg.sha512",
+        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20484,6 +20530,7 @@
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.IO.FileSystem.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.IO.IsolatedStorage.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.IO.MemoryMappedFiles.dll",
+        "runtimes/win10-x86-aot/lib/uap10.0.15138/System.IO.Pipes.AccessControl.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.IO.Pipes.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.IO.Ports.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.IO.UnmanagedMemoryStream.dll",
@@ -20492,6 +20539,7 @@
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Linq.Parallel.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Linq.Queryable.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Linq.dll",
+        "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Memory.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Net.Http.Rtc.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Net.Http.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Net.HttpListener.dll",
@@ -20533,6 +20581,7 @@
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Resources.Reader.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Resources.ResourceManager.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Resources.Writer.dll",
+        "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Runtime.CompilerServices.Unsafe.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Runtime.CompilerServices.VisualC.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Runtime.Extensions.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Runtime.Handles.dll",
@@ -20556,6 +20605,7 @@
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Security.Cryptography.Encoding.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Security.Cryptography.Primitives.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Security.Permissions.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Security.Principal.Windows.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Security.Principal.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/System.Security.SecureString.dll",
@@ -20616,17 +20666,17 @@
         "runtimes/win10-x86-aot/lib/netcore50/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.1.12": {
-      "sha512": "N0Tv0vN/VJFiBD3tlq480WtazM0q8HBQW7MHNptAcTMpE0862qMR2Efp/85Khj/n6iSrk0CH3HmX5F7yIMNfXg==",
+    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.8": {
+      "sha512": "NjyGnK679P+K2yNzSGPixuxG0LhWZZYImomYblgZeNk0ueIuNK0kLWZHNbDTbWCafPXQ0a3qNYDnXuRnct2AAA==",
       "type": "package",
-      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.1.12",
+      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.1.12.nupkg.sha512",
+        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.8.nupkg.sha512",
         "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.nuspec",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
@@ -20676,6 +20726,7 @@
         "runtimes/win10-x86/lib/uap10.0.15138/System.IO.FileSystem.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.IO.IsolatedStorage.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.IO.MemoryMappedFiles.dll",
+        "runtimes/win10-x86/lib/uap10.0.15138/System.IO.Pipes.AccessControl.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.IO.Pipes.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.IO.Ports.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.IO.UnmanagedMemoryStream.dll",
@@ -20684,6 +20735,7 @@
         "runtimes/win10-x86/lib/uap10.0.15138/System.Linq.Parallel.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Linq.Queryable.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Linq.dll",
+        "runtimes/win10-x86/lib/uap10.0.15138/System.Memory.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Net.Http.Rtc.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Net.Http.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Net.HttpListener.dll",
@@ -20724,6 +20776,7 @@
         "runtimes/win10-x86/lib/uap10.0.15138/System.Resources.Reader.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Resources.ResourceManager.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Resources.Writer.dll",
+        "runtimes/win10-x86/lib/uap10.0.15138/System.Runtime.CompilerServices.Unsafe.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Runtime.CompilerServices.VisualC.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Runtime.Extensions.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Runtime.Handles.dll",
@@ -20747,6 +20800,7 @@
         "runtimes/win10-x86/lib/uap10.0.15138/System.Security.Cryptography.Encoding.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Security.Cryptography.Primitives.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win10-x86/lib/uap10.0.15138/System.Security.Permissions.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Security.Principal.Windows.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Security.Principal.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/System.Security.SecureString.dll",
@@ -26456,7 +26510,7 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.12",
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.8",
       "System.Collections.NonGeneric >= 4.3.0"
     ]
   },
@@ -26499,7 +26553,7 @@
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
-            "version": "[6.1.12, )"
+            "version": "[6.2.8, )"
           },
           "System.Collections.NonGeneric": {
             "target": "Package",
@@ -26534,7 +26588,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Net.NameResolution from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Net.NameResolution (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.NameResolution (>= 4.0.0)",
+      "message": "Detected package downgrade: System.Net.NameResolution from 4.3.0 to 4.0.0. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Net.NameResolution (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.NameResolution (>= 4.0.0)",
       "libraryId": "System.Net.NameResolution",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26549,7 +26603,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Net.Primitives from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Net.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> System.Net.Primitives (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Net.Primitives from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Net.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> System.Net.Primitives (>= 4.0.11)",
       "libraryId": "System.Net.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26564,7 +26618,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26579,7 +26633,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.NETCore 5.0.2 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.NETCore 5.0.2 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26594,7 +26648,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.NETCore 5.0.2 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.NETCore 5.0.2 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26609,7 +26663,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.NETCore 5.0.2 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.NETCore 5.0.2 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26624,7 +26678,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.IO.IsolatedStorage 4.0.1 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.IO.IsolatedStorage 4.0.1 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26639,7 +26693,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.IO.IsolatedStorage 4.0.1 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.IO.IsolatedStorage 4.0.1 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26654,7 +26708,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.NameResolution 4.0.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.NameResolution 4.0.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26669,7 +26723,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Requests 4.0.11 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Requests 4.0.11 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26684,7 +26738,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26699,7 +26753,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.WebSockets.Client 4.0.2 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.WebSockets.Client 4.0.2 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26714,7 +26768,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Http 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Http 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26729,7 +26783,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.NetTcp 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.NetTcp 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26744,7 +26798,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Primitives 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Primitives 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26759,7 +26813,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26774,7 +26828,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.IO.FileSystem 4.3.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.IO.FileSystem 4.3.0 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26789,7 +26843,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.WebSockets.Client 4.0.2 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.WebSockets.Client 4.0.2 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26804,7 +26858,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.WebSockets.Client 4.0.2 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.WebSockets.Client 4.0.2 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26819,7 +26873,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.Serialization.Xml 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.Serialization.Xml 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26834,7 +26888,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.Serialization.Xml 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.Serialization.Xml 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26849,7 +26903,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26864,7 +26918,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Primitives 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Primitives 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26879,7 +26933,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Primitives 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Primitives 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26894,7 +26948,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Primitives 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Primitives 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26909,7 +26963,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Primitives 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Primitives 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26924,7 +26978,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> Microsoft.Win32.Primitives (>= 4.0.1)",
+      "message": "Detected package downgrade: Microsoft.Win32.Primitives from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> Microsoft.Win32.Primitives (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> Microsoft.Win32.Primitives (>= 4.0.1)",
       "libraryId": "Microsoft.Win32.Primitives",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26939,7 +26993,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Xml.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Xml.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26954,7 +27008,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Xml.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Xml.XmlDocument 4.0.1 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26969,7 +27023,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Xml.XmlSerializer 4.0.11 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Xml.XmlSerializer 4.0.11 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26984,7 +27038,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Xml.XmlSerializer 4.0.11 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Xml.XmlSerializer 4.0.11 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -26999,7 +27053,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27014,7 +27068,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27029,7 +27083,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.Serialization.Json 4.0.3 -> System.Private.DataContractSerialization 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.Serialization.Json 4.0.3 -> System.Private.DataContractSerialization 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27044,7 +27098,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.Serialization.Json 4.0.3 -> System.Private.DataContractSerialization 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.Serialization.Json 4.0.3 -> System.Private.DataContractSerialization 4.1.2 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27059,7 +27113,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27074,7 +27128,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27089,7 +27143,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27104,7 +27158,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Duplex 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27119,7 +27173,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27134,7 +27188,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27149,7 +27203,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27164,7 +27218,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Http 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27179,7 +27233,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27194,7 +27248,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27209,7 +27263,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27224,7 +27278,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.NetTcp 4.1.3 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27239,7 +27293,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27254,7 +27308,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27269,7 +27323,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
+      "message": "Detected package downgrade: System.Runtime.WindowsRuntime from 4.3.0 to 4.0.11. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Runtime.WindowsRuntime (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Runtime.WindowsRuntime (>= 4.0.11)",
       "libraryId": "System.Runtime.WindowsRuntime",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27284,7 +27338,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Threading.Overlapped (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Threading.Overlapped from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Security 4.0.4 -> System.Private.ServiceModel 4.1.3 -> System.Xml.ReaderWriter 4.0.11 -> System.IO.FileSystem 4.0.1 -> runtime.win.System.IO.FileSystem 4.3.0 -> System.Threading.Overlapped (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Threading.Overlapped (>= 4.0.1)",
       "libraryId": "System.Threading.Overlapped",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm",
@@ -27299,7 +27353,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.NameResolution 4.0.0 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.NameResolution 4.0.0 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27311,7 +27365,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.WebSockets.Client 4.0.2 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.WebSockets.Client 4.0.2 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27323,7 +27377,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Http.Rtc 4.0.1 -> System.Net.Http 4.1.0 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27335,7 +27389,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> runtime.win.System.Net.Sockets 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27347,7 +27401,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Requests 4.0.11 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Requests 4.0.11 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27359,7 +27413,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Net.Sockets 4.1.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Net.Sockets 4.1.0 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27371,7 +27425,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Http 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Http 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27383,7 +27437,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.NetTcp 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.NetTcp 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27395,7 +27449,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Primitives 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Primitives 4.1.3 -> System.Net.Primitives 4.0.11 -> runtime.win.System.Net.Primitives 4.3.0 -> System.Diagnostics.Tracing 4.3.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",
@@ -27407,7 +27461,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.ServiceModel.Primitives 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.Security.Cryptography.Encoding 4.0.0 -> System.Collections.Concurrent 4.0.12 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.1.12 -> System.Diagnostics.Contracts (>= 4.0.1)",
+      "message": "Detected package downgrade: System.Diagnostics.Contracts from 4.3.0 to 4.0.1. Reference the package directly from the project to select a different version. \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.ServiceModel.Primitives 4.1.3 -> System.Security.Cryptography.X509Certificates 4.1.0 -> System.Security.Cryptography.Encoding 4.0.0 -> System.Collections.Concurrent 4.0.12 -> System.Diagnostics.Tracing 4.1.0 -> runtime.aot.System.Diagnostics.Tracing 4.3.0 -> System.Reflection.Extensions 4.3.0 -> runtime.aot.System.Reflection.Extensions 4.3.0 -> System.Reflection.TypeExtensions 4.3.0 -> System.Diagnostics.Contracts (>= 4.3.0) \r\n ModernUI.Charts.UWP -> Microsoft.NETCore.UniversalWindowsPlatform 6.2.8 -> System.Diagnostics.Contracts (>= 4.0.1)",
       "libraryId": "System.Diagnostics.Contracts",
       "targetGraphs": [
         "UAP,Version=v10.0.15063/win10-arm-aot",

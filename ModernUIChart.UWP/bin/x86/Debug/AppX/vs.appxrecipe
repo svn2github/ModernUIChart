@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-01T03:27:13.383</Modified>
+      <Modified>2019-04-01T04:21:23.778</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\ModernUIChart.UWP.exe">
       <PackagePath>entrypoint\ModernUIChart.UWP.exe</PackagePath>
-      <Modified>2019-04-01T03:27:11.752</Modified>
+      <Modified>2019-04-01T04:21:21.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUI.Charts.UWP\bin\x86\Debug\ModernUI.Charts.UWP.dll">
       <PackagePath>ModernUI.Charts.UWP.dll</PackagePath>
-      <Modified>2019-04-01T03:27:09.486</Modified>
+      <Modified>2019-04-01T04:21:19.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -550,19 +550,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-01T03:27:11.598</Modified>
+      <Modified>2019-04-01T04:21:21.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-01T03:27:11.598</Modified>
+      <Modified>2019-04-01T04:21:21.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Theme\Generic.xbf">
       <PackagePath>Theme\Generic.xbf</PackagePath>
-      <Modified>2019-04-01T03:27:11.591</Modified>
+      <Modified>2019-04-01T04:21:21.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUI.Charts.UWP\bin\x86\Debug\Themes\Generic.xbf">
       <PackagePath>ModernUI.Charts.UWP\Themes\Generic.xbf</PackagePath>
-      <Modified>2019-04-01T03:27:09.287</Modified>
+      <Modified>2019-04-01T04:21:19.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -570,11 +570,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-01T03:27:12.830</Modified>
+      <Modified>2019-04-01T04:21:22.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ModernUIChart\ModernUIChart.UWP\bin\x86\Debug\Core\ModernUIChart.UWP.exe">
       <PackagePath>ModernUIChart.UWP.exe</PackagePath>
-      <Modified>2019-04-01T03:27:13.371</Modified>
+      <Modified>2019-04-01T04:21:23.766</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
