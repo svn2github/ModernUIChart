@@ -36,16 +36,6 @@ Nuget Package ready for download.
 [# ModernUI.Charts.UWP Nuget Package](https://www.nuget.org/packages/ModernUI.Charts.UWP/)
 
 
-# Roadmap
- - **Nuget Package support**
- - Fixing existing Bugs
- - Native support for Light and Dark Themes 
- - Line Chart support
- - Area Chart support
- - Financial Charts & Indicators
- - Port to Net Standard 2.0
- - Support for Xamarin Forms
-
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjI2NzEyMTI0LC0yNzY0OTA0MzUsMTQ3Mj
