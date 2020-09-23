@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUIChart.UWP\\ModernUIChart.UWP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUI.Charts.UWP\\ModernUI.Charts.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUI.Charts.UWP\\ModernUI.Charts.UWP.csproj",
+        "projectName": "ModernUI.Charts.UWP",
+        "projectPath": "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUI.Charts.UWP\\ModernUI.Charts.UWP.csproj",
+        "packagesPath": "C:\\Users\\kusan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUI.Charts.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kusan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/adimsa/1355fc20-9013-4004-b5f0-6b3331f496dd/_packaging/Avax-Feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            },
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUIChart.UWP\\ModernUIChart.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUIChart.UWP\\ModernUIChart.UWP.csproj",
+        "projectName": "ModernUIChart.UWP",
+        "projectPath": "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUIChart.UWP\\ModernUIChart.UWP.csproj",
+        "packagesPath": "C:\\Users\\kusan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUIChart.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kusan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/adimsa/1355fc20-9013-4004-b5f0-6b3331f496dd/_packaging/Avax-Feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {
+              "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUI.Charts.UWP\\ModernUI.Charts.UWP.csproj": {
+                "projectPath": "C:\\Users\\kusan\\source\\repos\\kusanagi2k2\\ModernUIChart\\ModernUI.Charts.UWP\\ModernUI.Charts.UWP.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+C:\Users\kusan\source\repos\kusanagi2k2\ModernUIChart\ModernUICharts.Core\obj\x86\Debug\ModernUICharts.Core.csprojAssemblyReference.cache
+C:\Users\kusan\source\repos\kusanagi2k2\ModernUIChart\ModernUICharts.Core\obj\x86\Debug\ModernUICharts.Core.csproj.CoreCompileInputs.cache

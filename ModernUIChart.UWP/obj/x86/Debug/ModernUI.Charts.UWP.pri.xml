@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="ModernUI.Charts.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="ModernUI.Charts.UWP">
+				<NamedResource name="ModernUI.Charts.UWP.xr.xml" uri="ms-resource://ModernUI.Charts.UWP/Files/ModernUI.Charts.UWP/ModernUI.Charts.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>ModernUI.Charts.UWP\ModernUI.Charts.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://ModernUI.Charts.UWP/Files/ModernUI.Charts.UWP/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>ModernUI.Charts.UWP\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
